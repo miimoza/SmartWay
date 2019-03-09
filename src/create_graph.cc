@@ -7,17 +7,15 @@
 
 using json = nlohmann::json;
 
-json stream_to_json(std::string filename)
+json stream_to_json(const std::string& filename)
 {
     std::cout << filename << " converting to json structure\n";
     std::ifstream s(filename);
-
     std::cout << s.rdbuf();
-
     json j;
     s >> j;
 
-    std::cout << "test:" << j["result"]["metros"][0]["code"] << "\n";
+    std::cout << "test:\n";
 
     return j;
 }
