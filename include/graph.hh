@@ -6,9 +6,7 @@ class Graph
 {
 public:
     Graph() = default;
-
-private:
-    std::vector<Station> station_list;
+    std::vector<std::shared_ptr<Station>> station_list;
 };
 
-Graph create_graph();
+std::shared_ptr<Graph> create_graph();
