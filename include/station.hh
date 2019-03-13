@@ -11,11 +11,16 @@ class Station
         std::vector<std::pair<Station, std::pair<size_t, size_t>>>;
 
 public:
-    Station();
+    Station(std::string name, std::string slug);
+    void add_line(std::string code);
+    std::vector<std::string> get_lines();
+    adjacency_list get_ajds();
+    std::string get_name();
+    std::string get_slug();
 
 private:
-    std::string name;
-    std::string slug;
-
-    adjacency_list adj_list;
+    adjacency_list adj_stations_;
+    std::vector<std::string> lines_;
+    std::string name_;
+    std::string slug_;
 };

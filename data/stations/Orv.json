@@ -1,0 +1,23 @@
+{
+    "result": {
+        "stations": [
+            {
+                "slug": "antony",
+                "name": "Antony"
+            },
+            {
+                "slug": "orly+ouest",
+                "name": "Orly-Ouest"
+            },
+            {
+                "slug": "orly+sud",
+                "name": "Orly-Sud"
+            }
+        ]
+    },
+    "_metadata": {
+        "call": "GET /stations/metros/Orv",
+        "date": "2019-03-13T02:48:17+01:00",
+        "version": 3
+    }
+}
