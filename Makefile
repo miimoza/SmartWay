@@ -7,4 +7,4 @@ all:
 	$(CC) $(CXXFLAGS) $(SRC) -o $(BIN)
 
 clean:
-	rm $(BIN)
+	$(RM) $(BIN)
