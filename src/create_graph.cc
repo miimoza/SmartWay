@@ -1,5 +1,6 @@
 #include <fstream>
 #include <iostream>
+#include <memory>
 #include <sstream>
 #include <string>
 
@@ -7,6 +8,7 @@
 #include "json.hpp"
 
 using json = nlohmann::json;
+using stations_vect = std::vector<std::shared_ptr<Station>>;
 
 json stream_to_json(const std::string& filename)
 {
@@ -19,9 +21,17 @@ json stream_to_json(const std::string& filename)
     return j;
 }
 
-std::vector<Station> init_stations()
+std::shared_ptr<Station> get_station(stations_vect v, const std::string& slug)
 {
-    std::vector<Station> station_list;
+    for (auto s : v)
+        if (!slug.compare(s->get_slug()))
+            return s;
+    return NULL;
+}
+
+stations_vect init_stations()
+{
+    stations_vect station_list;
 
     std::cout << "Init stations list...\n";
     json jsn_lines = stream_to_json("data/lines.json");
@@ -36,24 +46,31 @@ std::vector<Station> init_stations()
         for (auto s_js : line["result"]["stations"])
         {
             // std::cout << "	Adding station " << s_js["slug"] << "\n";
-            Station station(s_js["name"], s_js["slug"]);
-            station.add_line(s);
-            station_list.push_back(station);
+            auto station = get_station(station_list, s_js["slug"]);
+            if (!station)
+            {
+                std::shared_ptr<Station> station =
+                    std::make_shared<Station>(s_js["name"], s_js["slug"]);
+                station->add_line(s);
+                station_list.push_back(station);
+            } else
+            {
+                station->add_line(s);
+            }
         }
     }
+
+    return station_list;
 }
 
 Graph create_graph()
 {
     Graph g;
-    std::vector<Station> station_list = init_stations();
+    stations_vect station_list = init_stations();
     std::cout << "letsgo\n";
-    for (Station s : station_list)
-    {
-        std::cout << s.get_name() << "\n";
-        for (auto l : s.get_lines())
-            std::cout << s.get_name() << "avec la " << l << "\n";
-    }
+    for (auto s : station_list)
+        for (auto l : s->get_lines())
+            std::cout << s->get_name() << " avec la " << l << "\n";
 
     return g;
 }
