@@ -26,8 +26,6 @@ public:
     size_t get_id();
     std::string get_slug();
 
-    int printed = 0;
-
 private:
     adjacency_list adj_stations_;
     std::vector<std::string> lines_;

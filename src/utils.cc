@@ -7,6 +7,7 @@
 #include <string>
 
 #include "graph.hh"
+#include "log.hh"
 #include "station.hh"
 
 std::map<std::string, std::string> line_colors = {
@@ -28,10 +29,11 @@ std::map<std::string, std::string> line_colors = {
 
 static void build_dot_file_rec(std::shared_ptr<Graph> G, std::ofstream& os)
 {
+    Log log("Dot File");
+
     for (auto S : G->station_list)
     {
-        std::cout << "Build from " << S->get_name() << "\n";
-        S->printed = 1;
+        log << "Build from " << S->get_name() << "\n";
         auto adjs = S->get_adjs();
 
         for (size_t i = 0; i < S->get_len_adjs(); i++)

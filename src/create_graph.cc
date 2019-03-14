@@ -7,6 +7,7 @@
 
 #include "graph.hh"
 #include "json.hpp"
+#include "log.hh"
 
 using json = nlohmann::json;
 using station_vect = std::vector<std::shared_ptr<Station>>;
@@ -17,7 +18,8 @@ using adjacency_list = std::vector<adjacency_station>;
 
 static json stream_to_json(const std::string& filename)
 {
-    std::cout << "parsing " << filename << "...\n";
+    Log log("Parsing Json");
+    log << "parsing " << filename << "...\n";
     std::ifstream s(filename);
 
     json j;
@@ -45,13 +47,14 @@ static std::shared_ptr<Station> get_station(station_vect v,
 static void fill_adj_station(station_vect v, std::shared_ptr<Station> s, json l,
                              const std::string& line_code, size_t i)
 {
-    std::cout << "station " << i << l.size() << l[i]["slug"] << "\n";
+    Log log("Creating Edges");
+    log << "station " << i << l.size() << l[i]["slug"] << "\n";
     std::string slug = l[i]["slug"];
 
     std::shared_ptr<Station> s1, s2;
     if (i < l.size() - 1)
     {
-        std::cout << "	avant " << i << l.size() << l[i + 1]["slug"] << "\n";
+        log << "	avant " << i << l.size() << l[i + 1]["slug"] << "\n";
         s1 = get_station(v, l[i + 1]["slug"]);
         adjacency_station adj1 = std::make_pair(
             line_code, std::make_pair(s1, std::make_pair(0, 60)));
@@ -60,7 +63,7 @@ static void fill_adj_station(station_vect v, std::shared_ptr<Station> s, json l,
 
     if (i > 0)
     {
-        std::cout << "	apres " << i << l.size() << l[i - 1]["slug"] << "\n";
+        log << "	apres " << i << l.size() << l[i - 1]["slug"] << "\n";
         s2 = get_station(v, l[i - 1]["slug"]);
         adjacency_station adj2 = std::make_pair(
             line_code, std::make_pair(s2, std::make_pair(0, 60)));
@@ -101,7 +104,9 @@ static void update_id(station_vect v)
 static station_vect init_stations(station_vect station_list,
                                   const std::string& type)
 {
-    std::cout << "Init stations list...\n";
+    Log log("Init Stations");
+
+    log << "Init stations list...\n";
     json jsn_lines = stream_to_json("data/lines.json");
 
     for (auto l : jsn_lines["result"][type])
@@ -113,7 +118,7 @@ static station_vect init_stations(station_vect station_list,
         json line = stream_to_json(line_path.str());
         for (auto s_js : line["result"]["stations"])
         {
-            std::cout << "	Adding station " << s_js["slug"] << "\n";
+            log << "	Adding station " << s_js["slug"] << "\n";
             auto station = get_station(station_list, s_js["slug"]);
             if (!station)
             {
@@ -168,6 +173,7 @@ std::shared_ptr<Graph> create_graph()
 
     correct_failure(g->station_list);
 
+    Log l("Adjency");
     for (auto s : g->station_list)
     {
         for (auto l : s->get_lines())
