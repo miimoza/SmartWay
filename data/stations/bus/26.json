@@ -1,0 +1,163 @@
+{
+    "result": {
+        "stations": [
+            {
+                "slug": "gare+saint+lazare",
+                "name": "Gare Saint-Lazare"
+            },
+            {
+                "slug": "trinite",
+                "name": "Trinite"
+            },
+            {
+                "slug": "saint+georges+++chateaudun",
+                "name": "Saint-Georges - Chateaudun"
+            },
+            {
+                "slug": "carrefour+de+chateaudun",
+                "name": "Carrefour de Chateaudun"
+            },
+            {
+                "slug": "cadet",
+                "name": "Cadet"
+            },
+            {
+                "slug": "square+montholon",
+                "name": "Square Montholon"
+            },
+            {
+                "slug": "place+franz+liszt",
+                "name": "Place Franz Liszt"
+            },
+            {
+                "slug": "la+fayette+++saint+quentin+++gare+du+nord",
+                "name": "La Fayette - Saint Quentin - Gare du Nord"
+            },
+            {
+                "slug": "la+fayette+++dunkerque",
+                "name": "La Fayette - Dunkerque"
+            },
+            {
+                "slug": "chateau+landon",
+                "name": "Chateau Landon"
+            },
+            {
+                "slug": "louis+blanc",
+                "name": "Louis Blanc"
+            },
+            {
+                "slug": "jaures+++stalingrad",
+                "name": "Jaures - Stalingrad"
+            },
+            {
+                "slug": "marche+secretan",
+                "name": "Marche Secretan"
+            },
+            {
+                "slug": "mathurin+moreau+++simon+bolivar",
+                "name": "Mathurin Moreau - Simon Bolivar"
+            },
+            {
+                "slug": "colonel+fabien",
+                "name": "Colonel Fabien"
+            },
+            {
+                "slug": "belleville",
+                "name": "Belleville"
+            },
+            {
+                "slug": "pyrenees+++belleville",
+                "name": "Pyrenees - Belleville"
+            },
+            {
+                "slug": "jourdain",
+                "name": "Jourdain"
+            },
+            {
+                "slug": "l'ermitage",
+                "name": "L'Ermitage"
+            },
+            {
+                "slug": "pyrenees+++menilmontant",
+                "name": "Pyrenees - Menilmontant"
+            },
+            {
+                "slug": "villiers+de+l'isle+adam",
+                "name": "Villiers de l'Isle-Adam"
+            },
+            {
+                "slug": "gambetta+++mairie+du+20e",
+                "name": "Gambetta - Mairie du 20e"
+            },
+            {
+                "slug": "ramus",
+                "name": "Ramus"
+            },
+            {
+                "slug": "pyrenees+++bagnolet",
+                "name": "Pyrenees - Bagnolet"
+            },
+            {
+                "slug": "orteaux",
+                "name": "Orteaux"
+            },
+            {
+                "slug": "maraichers",
+                "name": "Maraichers"
+            },
+            {
+                "slug": "la+plaine",
+                "name": "La Plaine"
+            },
+            {
+                "slug": "cours+de+vincennes",
+                "name": "Cours de Vincennes"
+            },
+            {
+                "slug": "marsoulan",
+                "name": "Marsoulan"
+            },
+            {
+                "slug": "nation+++trone",
+                "name": "Nation - Trone"
+            },
+            {
+                "slug": "botzaris+++buttes+chaumont",
+                "name": "Botzaris - Buttes Chaumont"
+            },
+            {
+                "slug": "atlas",
+                "name": "Atlas"
+            },
+            {
+                "slug": "gare+du+nord+++dunkerque",
+                "name": "Gare du Nord - Dunkerque"
+            },
+            {
+                "slug": "magenta+++maubeuge",
+                "name": "Magenta - Maubeuge"
+            },
+            {
+                "slug": "condorcet",
+                "name": "Condorcet"
+            },
+            {
+                "slug": "maubeuge+++rochechouart",
+                "name": "Maubeuge - Rochechouart"
+            },
+            {
+                "slug": "chateaudun+++lamartine",
+                "name": "Chateaudun - Lamartine"
+            },
+            {
+                "slug": "gare+saint+lazare+++budapest",
+                "name": "Gare Saint-Lazare - Budapest"
+            }
+        ]
+    },
+    "_metadata": {
+        "call": "GET /stations/bus/26",
+        "date": "2019-03-14T07:03:21+01:00",
+        "version": 3
+    }
+}

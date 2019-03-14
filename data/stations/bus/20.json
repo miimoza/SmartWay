@@ -1,0 +1,155 @@
+{
+    "result": {
+        "stations": [
+            {
+                "slug": "gare+saint+lazare",
+                "name": "Gare Saint-Lazare"
+            },
+            {
+                "slug": "gare+saint+lazare.",
+                "name": "Gare Saint-Lazare."
+            },
+            {
+                "slug": "havre+++haussmann",
+                "name": "Havre - Haussmann"
+            },
+            {
+                "slug": "auber",
+                "name": "Auber"
+            },
+            {
+                "slug": "opera",
+                "name": "Opera"
+            },
+            {
+                "slug": "opera+++4+septembre",
+                "name": "Opera - 4 Septembre"
+            },
+            {
+                "slug": "richelieu+++4+septembre",
+                "name": "Richelieu - 4 Septembre"
+            },
+            {
+                "slug": "bourse",
+                "name": "Bourse"
+            },
+            {
+                "slug": "reaumur+++montmartre",
+                "name": "Reaumur - Montmartre"
+            },
+            {
+                "slug": "sentier",
+                "name": "Sentier"
+            },
+            {
+                "slug": "reaumur+++sebastopol",
+                "name": "Reaumur - Sebastopol"
+            },
+            {
+                "slug": "reaumur+++arts+et+metiers",
+                "name": "Reaumur - Arts et Metiers"
+            },
+            {
+                "slug": "arts+et+metiers",
+                "name": "Arts et Metiers"
+            },
+            {
+                "slug": "square+du+temple+++mairie+du+3e+++carreau+du+temple",
+                "name": "Square du Temple - Mairie du 3e - Carreau du Temple"
+            },
+            {
+                "slug": "turbigo+++republique",
+                "name": "Turbigo - Republique"
+            },
+            {
+                "slug": "republique",
+                "name": "Republique"
+            },
+            {
+                "slug": "jean+pierre+timbaud",
+                "name": "Jean-Pierre Timbaud"
+            },
+            {
+                "slug": "oberkampf+++filles+du+calvaire",
+                "name": "Oberkampf - Filles du Calvaire"
+            },
+            {
+                "slug": "saint+claude",
+                "name": "Saint-Claude"
+            },
+            {
+                "slug": "saint+gilles+++chemin+vert",
+                "name": "Saint-Gilles - Chemin Vert"
+            },
+            {
+                "slug": "pasteur+++wagner",
+                "name": "Pasteur - Wagner"
+            },
+            {
+                "slug": "bastille+++beaumarchais",
+                "name": "Bastille - Beaumarchais"
+            },
+            {
+                "slug": "bastille",
+                "name": "Bastille"
+            },
+            {
+                "slug": "lyon+++ledru+rollin",
+                "name": "Lyon - Ledru Rollin"
+            },
+            {
+                "slug": "gare+de+lyon+++diderot",
+                "name": "Gare de Lyon - Diderot"
+            },
+            {
+                "slug": "gare+de+lyon+++van+gogh",
+                "name": "Gare de Lyon - Van Gogh"
+            },
+            {
+                "slug": "gare+de+lyon",
+                "name": "Gare de Lyon"
+            },
+            {
+                "slug": "gare+de+lyon.",
+                "name": "Gare de Lyon."
+            },
+            {
+                "slug": "republique+++temple",
+                "name": "Republique - Temple"
+            },
+            {
+                "slug": "lancry+saint+martin",
+                "name": "Lancry-Saint Martin"
+            },
+            {
+                "slug": "porte+saint+martin",
+                "name": "Porte Saint-Martin"
+            },
+            {
+                "slug": "porte+saint+denis",
+                "name": "Porte Saint-Denis"
+            },
+            {
+                "slug": "poissonniere+++bonne+nouvelle",
+                "name": "Poissonniere - Bonne Nouvelle"
+            },
+            {
+                "slug": "grands+boulevards",
+                "name": "Grands Boulevards"
+            },
+            {
+                "slug": "richelieu+++drouot",
+                "name": "Richelieu - Drouot"
+            },
+            {
+                "slug": "choiseul",
+                "name": "Choiseul"
+            }
+        ]
+    },
+    "_metadata": {
+        "call": "GET /stations/bus/20",
+        "date": "2019-03-14T07:03:19+01:00",
+        "version": 3
+    }
+}

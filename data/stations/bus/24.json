@@ -1,0 +1,151 @@
+{
+    "result": {
+        "stations": [
+            {
+                "slug": "ecole+veterinaire+de+maisons+alfort+metro",
+                "name": "Ecole Veterinaire de Maisons-Alfort-Metro"
+            },
+            {
+                "slug": "pont+de+charenton",
+                "name": "Pont de Charenton"
+            },
+            {
+                "slug": "edmond+nocard",
+                "name": "Edmond Nocard"
+            },
+            {
+                "slug": "charenton+ecoles",
+                "name": "Charenton-Ecoles"
+            },
+            {
+                "slug": "victor+hugo",
+                "name": "Victor Hugo"
+            },
+            {
+                "slug": "les+berges+de+charenton",
+                "name": "Les Berges de Charenton"
+            },
+            {
+                "slug": "pont+nelson+mandela",
+                "name": "Pont Nelson Mandela"
+            },
+            {
+                "slug": "port+aux+lions",
+                "name": "Port aux Lions"
+            },
+            {
+                "slug": "parc+de+bercy",
+                "name": "Parc de Bercy"
+            },
+            {
+                "slug": "pont+national+++quai+de+bercy",
+                "name": "Pont National - Quai de Bercy"
+            },
+            {
+                "slug": "terroirs+de+france",
+                "name": "Terroirs de France"
+            },
+            {
+                "slug": "baron+le+roy",
+                "name": "Baron le Roy"
+            },
+            {
+                "slug": "lachambeaudie",
+                "name": "Lachambeaudie"
+            },
+            {
+                "slug": "gare+de+bercy+++popb",
+                "name": "Gare de Bercy - Popb"
+            },
+            {
+                "slug": "gare+de+bercy",
+                "name": "Gare de Bercy"
+            },
+            {
+                "slug": "ministere+de+l'economie+et+des+finances",
+                "name": "Ministere de l'Economie et des Finances"
+            },
+            {
+                "slug": "gare+de+lyon",
+                "name": "Gare de Lyon"
+            },
+            {
+                "slug": "pont+d'austerlitz+++quai+de+la+rapee",
+                "name": "Pont d'Austerlitz - Quai de la Rapee"
+            },
+            {
+                "slug": "gare+d'austerlitz",
+                "name": "Gare d'Austerlitz"
+            },
+            {
+                "slug": "cuvier",
+                "name": "Cuvier"
+            },
+            {
+                "slug": "universite+paris+vi",
+                "name": "Universite Paris VI"
+            },
+            {
+                "slug": "pont+de+la+tournelle+++cardinal+lemoine",
+                "name": "Pont de la Tournelle - Cardinal Lemoine"
+            },
+            {
+                "slug": "pont+de+l'archeveche",
+                "name": "Pont de l'Archeveche"
+            },
+            {
+                "slug": "notre+dame+++quai+de+montebello",
+                "name": "Notre-Dame - Quai de Montebello"
+            },
+            {
+                "slug": "saint+michel",
+                "name": "Saint-Michel"
+            },
+            {
+                "slug": "pont+neuf+++quai+des+grands+augustins",
+                "name": "Pont Neuf - Quai des Grands Augustins"
+            },
+            {
+                "slug": "pont+des+arts+++quai+de+conti",
+                "name": "Pont des Arts - Quai de Conti"
+            },
+            {
+                "slug": "pont+du+carrousel+++quai+voltaire",
+                "name": "Pont du Carrousel - Quai Voltaire"
+            },
+            {
+                "slug": "pont+royal+++quai+voltaire",
+                "name": "Pont Royal - Quai Voltaire"
+            },
+            {
+                "slug": "musee+d'orsay",
+                "name": "Musee d'Orsay"
+            },
+            {
+                "slug": "assemblee+nationale",
+                "name": "Assemblee Nationale"
+            },
+            {
+                "slug": "concorde",
+                "name": "Concorde"
+            },
+            {
+                "slug": "madeleine",
+                "name": "Madeleine"
+            },
+            {
+                "slug": "havre+++haussmann",
+                "name": "Havre - Haussmann"
+            },
+            {
+                "slug": "gare+saint+lazare",
+                "name": "Gare Saint-Lazare"
+            }
+        ]
+    },
+    "_metadata": {
+        "call": "GET /stations/bus/24",
+        "date": "2019-03-14T07:03:20+01:00",
+        "version": 3
+    }
+}

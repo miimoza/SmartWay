@@ -1,0 +1,19 @@
+{
+    "result": {
+        "stations": [
+            {
+                "slug": "funiculaire+gare+basse",
+                "name": "Funiculaire Gare basse"
+            },
+            {
+                "slug": "funiculaire+gare+haute",
+                "name": "Funiculaire Gare haute"
+            }
+        ]
+    },
+    "_metadata": {
+        "call": "GET /stations/metros/Fun",
+        "date": "2019-03-14T07:03:09+01:00",
+        "version": 3
+    }
+}

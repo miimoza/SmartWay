@@ -1,0 +1,191 @@
+{
+    "result": {
+        "stations": [
+            {
+                "slug": "gare+saint+lazare",
+                "name": "Gare Saint-Lazare"
+            },
+            {
+                "slug": "havre+++haussmann",
+                "name": "Havre - Haussmann"
+            },
+            {
+                "slug": "auber",
+                "name": "Auber"
+            },
+            {
+                "slug": "opera",
+                "name": "Opera"
+            },
+            {
+                "slug": "opera+++4+septembre",
+                "name": "Opera - 4 Septembre"
+            },
+            {
+                "slug": "richelieu+++4+septembre",
+                "name": "Richelieu - 4 Septembre"
+            },
+            {
+                "slug": "bourse",
+                "name": "Bourse"
+            },
+            {
+                "slug": "mairie+du+ii",
+                "name": "Mairie du II"
+            },
+            {
+                "slug": "victoires",
+                "name": "Victoires"
+            },
+            {
+                "slug": "etienne+marcel+++montmartre",
+                "name": "Etienne Marcel - Montmartre"
+            },
+            {
+                "slug": "turbigo+++etienne+marcel",
+                "name": "Turbigo - Etienne Marcel"
+            },
+            {
+                "slug": "sebastopol+++etienne+marcel",
+                "name": "Sebastopol - Etienne Marcel"
+            },
+            {
+                "slug": "grenier+saint+lazare+++quartier+de+l'horloge",
+                "name": "Grenier Saint-Lazare - Quartier de l'Horloge"
+            },
+            {
+                "slug": "centre+georges+pompidou",
+                "name": "Centre Georges Pompidou"
+            },
+            {
+                "slug": "archives+++rambuteau",
+                "name": "Archives - Rambuteau"
+            },
+            {
+                "slug": "rue+vieille+du+temple",
+                "name": "Rue Vieille du Temple"
+            },
+            {
+                "slug": "payenne",
+                "name": "Payenne"
+            },
+            {
+                "slug": "place+des+vosges",
+                "name": "Place des Vosges"
+            },
+            {
+                "slug": "pasteur+++wagner",
+                "name": "Pasteur - Wagner"
+            },
+            {
+                "slug": "bastille+++beaumarchais",
+                "name": "Bastille - Beaumarchais"
+            },
+            {
+                "slug": "bastille",
+                "name": "Bastille"
+            },
+            {
+                "slug": "lyon+++ledru+rollin",
+                "name": "Lyon - Ledru Rollin"
+            },
+            {
+                "slug": "gare+de+lyon+++diderot",
+                "name": "Gare de Lyon - Diderot"
+            },
+            {
+                "slug": "daumesnil+++diderot",
+                "name": "Daumesnil - Diderot"
+            },
+            {
+                "slug": "rambouillet",
+                "name": "Rambouillet"
+            },
+            {
+                "slug": "charles+bossut",
+                "name": "Charles Bossut"
+            },
+            {
+                "slug": "mairie+du+12e",
+                "name": "Mairie du 12e"
+            },
+            {
+                "slug": "dubrunfaut",
+                "name": "Dubrunfaut"
+            },
+            {
+                "slug": "daumesnil+++felix+eboue",
+                "name": "Daumesnil - Felix Eboue"
+            },
+            {
+                "slug": "docteur+goujon+++reuilly",
+                "name": "Docteur Goujon - Reuilly"
+            },
+            {
+                "slug": "picpus+++reuilly",
+                "name": "Picpus - Reuilly"
+            },
+            {
+                "slug": "hopital+rothschild",
+                "name": "Hopital Rothschild"
+            },
+            {
+                "slug": "fabre+d'eglantine",
+                "name": "Fabre d'Eglantine"
+            },
+            {
+                "slug": "picpus",
+                "name": "Picpus"
+            },
+            {
+                "slug": "docteur+netter",
+                "name": "Docteur Netter"
+            },
+            {
+                "slug": "porte+de+saint+mande",
+                "name": "Porte de Saint-Mande"
+            },
+            {
+                "slug": "jules+lemaitre+++maurice+ravel",
+                "name": "Jules Lemaitre - Maurice Ravel"
+            },
+            {
+                "slug": "porte+de+montempoivre",
+                "name": "Porte de Montempoivre"
+            },
+            {
+                "slug": "daumesnil+++ledru+rollin",
+                "name": "Daumesnil - Ledru Rollin"
+            },
+            {
+                "slug": "tournelles+++saint+gilles",
+                "name": "Tournelles - Saint-Gilles"
+            },
+            {
+                "slug": "turenne+++saint+gilles",
+                "name": "Turenne - Saint-Gilles"
+            },
+            {
+                "slug": "archives+++haudriettes",
+                "name": "Archives - Haudriettes"
+            },
+            {
+                "slug": "louvre+++etienne+marcel",
+                "name": "Louvre - Etienne Marcel"
+            },
+            {
+                "slug": "bibliotheque+nationale",
+                "name": "Bibliotheque Nationale"
+            },
+            {
+                "slug": "petits+champs+++danielle+casanova",
+                "name": "Petits Champs - Danielle Casanova"
+            }
+        ]
+    },
+    "_metadata": {
+        "call": "GET /stations/bus/29",
+        "date": "2019-03-14T07:03:22+01:00",
+        "version": 3
+    }
+}

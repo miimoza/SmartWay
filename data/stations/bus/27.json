@@ -1,0 +1,171 @@
+{
+    "result": {
+        "stations": [
+            {
+                "slug": "gare+saint+lazare",
+                "name": "Gare Saint-Lazare"
+            },
+            {
+                "slug": "havre+++haussmann",
+                "name": "Havre - Haussmann"
+            },
+            {
+                "slug": "auber",
+                "name": "Auber"
+            },
+            {
+                "slug": "opera",
+                "name": "Opera"
+            },
+            {
+                "slug": "opera+++4+septembre",
+                "name": "Opera - 4 Septembre"
+            },
+            {
+                "slug": "pyramides",
+                "name": "Pyramides"
+            },
+            {
+                "slug": "palais+royal+++comedie+francaise",
+                "name": "Palais Royal - Comedie Francaise"
+            },
+            {
+                "slug": "quai+francois+mitterrand",
+                "name": "Quai Francois Mitterrand"
+            },
+            {
+                "slug": "pont+des+arts",
+                "name": "Pont des Arts"
+            },
+            {
+                "slug": "pont+neuf+++quai+du+louvre",
+                "name": "Pont Neuf - Quai du Louvre"
+            },
+            {
+                "slug": "pont+neuf+++quai+des+orfevres",
+                "name": "Pont Neuf - Quai des Orfevres"
+            },
+            {
+                "slug": "pont+saint+michel+++quai+des+orfevres",
+                "name": "Pont Saint-Michel - Quai des Orfevres"
+            },
+            {
+                "slug": "saint+michel+++saint+germain",
+                "name": "Saint-Michel - Saint-Germain"
+            },
+            {
+                "slug": "les+ecoles",
+                "name": "Les Ecoles"
+            },
+            {
+                "slug": "luxembourg",
+                "name": "Luxembourg"
+            },
+            {
+                "slug": "saint+jacques+++gay+lussac",
+                "name": "Saint-Jacques - Gay-Lussac"
+            },
+            {
+                "slug": "feuillantines",
+                "name": "Feuillantines"
+            },
+            {
+                "slug": "berthollet+++vauquelin",
+                "name": "Berthollet - Vauquelin"
+            },
+            {
+                "slug": "monge+++claude+bernard",
+                "name": "Monge - Claude Bernard"
+            },
+            {
+                "slug": "les+gobelins",
+                "name": "Les Gobelins"
+            },
+            {
+                "slug": "banquier",
+                "name": "Banquier"
+            },
+            {
+                "slug": "place+d'italie+++mairie+du+13e",
+                "name": "Place d'Italie - Mairie du 13e"
+            },
+            {
+                "slug": "place+d'italie",
+                "name": "Place d'Italie"
+            },
+            {
+                "slug": "les+alpes",
+                "name": "Les Alpes"
+            },
+            {
+                "slug": "nationale",
+                "name": "Nationale"
+            },
+            {
+                "slug": "clisson",
+                "name": "Clisson"
+            },
+            {
+                "slug": "jeanne+d'arc+++eglise+de+la+gare",
+                "name": "Jeanne d'Arc - Eglise de la Gare"
+            },
+            {
+                "slug": "patay+++tolbiac",
+                "name": "Patay - Tolbiac"
+            },
+            {
+                "slug": "oudine",
+                "name": "Oudine"
+            },
+            {
+                "slug": "regnault",
+                "name": "Regnault"
+            },
+            {
+                "slug": "porte+de+vitry",
+                "name": "Porte de Vitry"
+            },
+            {
+                "slug": "claude+regaud",
+                "name": "Claude Regaud"
+            },
+            {
+                "slug": "porte+d'ivry",
+                "name": "Porte d'Ivry"
+            },
+            {
+                "slug": "massena+++darmesteter",
+                "name": "Massena - Darmesteter"
+            },
+            {
+                "slug": "saint+michel",
+                "name": "Saint-Michel"
+            },
+            {
+                "slug": "pont+neuf+++quai+des+grands+augustins",
+                "name": "Pont Neuf - Quai des Grands Augustins"
+            },
+            {
+                "slug": "pont+des+arts+++quai+de+conti",
+                "name": "Pont des Arts - Quai de Conti"
+            },
+            {
+                "slug": "pont+du+carrousel+++quai+voltaire",
+                "name": "Pont du Carrousel - Quai Voltaire"
+            },
+            {
+                "slug": "musee+du+louvre",
+                "name": "Musee du Louvre"
+            },
+            {
+                "slug": "petits+champs+++danielle+casanova",
+                "name": "Petits Champs - Danielle Casanova"
+            }
+        ]
+    },
+    "_metadata": {
+        "call": "GET /stations/bus/27",
+        "date": "2019-03-14T07:03:21+01:00",
+        "version": 3
+    }
+}

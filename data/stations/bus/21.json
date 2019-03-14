@@ -1,0 +1,135 @@
+{
+    "result": {
+        "stations": [
+            {
+                "slug": "gare+saint+lazare",
+                "name": "Gare Saint-Lazare"
+            },
+            {
+                "slug": "havre+++haussmann",
+                "name": "Havre - Haussmann"
+            },
+            {
+                "slug": "auber",
+                "name": "Auber"
+            },
+            {
+                "slug": "opera",
+                "name": "Opera"
+            },
+            {
+                "slug": "opera+++4+septembre",
+                "name": "Opera - 4 Septembre"
+            },
+            {
+                "slug": "pyramides",
+                "name": "Pyramides"
+            },
+            {
+                "slug": "palais+royal+++comedie+francaise",
+                "name": "Palais Royal - Comedie Francaise"
+            },
+            {
+                "slug": "saint+honore+++valois",
+                "name": "Saint-Honore - Valois"
+            },
+            {
+                "slug": "louvre+++rivoli",
+                "name": "Louvre - Rivoli"
+            },
+            {
+                "slug": "pont+neuf+++quai+du+louvre",
+                "name": "Pont Neuf - Quai du Louvre"
+            },
+            {
+                "slug": "chatelet",
+                "name": "Chatelet"
+            },
+            {
+                "slug": "cite+++palais+de+justice",
+                "name": "Cite - Palais de Justice"
+            },
+            {
+                "slug": "saint+michel+++saint+germain",
+                "name": "Saint-Michel - Saint-Germain"
+            },
+            {
+                "slug": "les+ecoles",
+                "name": "Les Ecoles"
+            },
+            {
+                "slug": "luxembourg",
+                "name": "Luxembourg"
+            },
+            {
+                "slug": "saint+jacques+++gay+lussac",
+                "name": "Saint-Jacques - Gay-Lussac"
+            },
+            {
+                "slug": "feuillantines",
+                "name": "Feuillantines"
+            },
+            {
+                "slug": "berthollet+++vauquelin",
+                "name": "Berthollet - Vauquelin"
+            },
+            {
+                "slug": "port+royal+++berthollet",
+                "name": "Port Royal - Berthollet"
+            },
+            {
+                "slug": "glaciere+++arago",
+                "name": "Glaciere - Arago"
+            },
+            {
+                "slug": "glaciere+++nordmann",
+                "name": "Glaciere - Nordmann"
+            },
+            {
+                "slug": "glaciere+++auguste+blanqui",
+                "name": "Glaciere - Auguste Blanqui"
+            },
+            {
+                "slug": "daviel",
+                "name": "Daviel"
+            },
+            {
+                "slug": "glaciere+++tolbiac",
+                "name": "Glaciere - Tolbiac"
+            },
+            {
+                "slug": "parc+montsouris",
+                "name": "Parc Montsouris"
+            },
+            {
+                "slug": "cite+universitaire",
+                "name": "Cite Universitaire"
+            },
+            {
+                "slug": "stade+charlety+++porte+de+gentilly",
+                "name": "Stade Charlety - Porte de Gentilly"
+            },
+            {
+                "slug": "amiral+mouchez+++charbonnel",
+                "name": "Amiral Mouchez - Charbonnel"
+            },
+            {
+                "slug": "rivoli+++pont+neuf",
+                "name": "Rivoli - Pont Neuf"
+            },
+            {
+                "slug": "palais+royal+++musee+du+louvre",
+                "name": "Palais Royal - Musee du Louvre"
+            },
+            {
+                "slug": "petits+champs+++danielle+casanova",
+                "name": "Petits Champs - Danielle Casanova"
+            }
+        ]
+    },
+    "_metadata": {
+        "call": "GET /stations/bus/21",
+        "date": "2019-03-14T07:03:20+01:00",
+        "version": 3
+    }
+}

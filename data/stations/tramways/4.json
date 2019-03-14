@@ -1,0 +1,55 @@
+{
+    "result": {
+        "stations": [
+            {
+                "slug": "gare+d'aulnay+sous+bois",
+                "name": "Gare d'Aulnay Sous Bois"
+            },
+            {
+                "slug": "rougemont+chanteloup",
+                "name": "Rougemont Chanteloup"
+            },
+            {
+                "slug": "gare+de+freinville+sevran",
+                "name": "Gare de Freinville Sevran"
+            },
+            {
+                "slug": "gare+de+l+abbaye",
+                "name": "Gare de L Abbaye"
+            },
+            {
+                "slug": "lycee+henry+sellier",
+                "name": "Lycee Henry Sellier"
+            },
+            {
+                "slug": "gare+de+gargan",
+                "name": "Gare de Gargan"
+            },
+            {
+                "slug": "gare+des+pavillons+sous+bois",
+                "name": "Gare des Pavillons Sous Bois"
+            },
+            {
+                "slug": "gare+d'allee+de+la+tour+rendez+vous",
+                "name": "Gare d'Allee de la Tour Rendez Vous"
+            },
+            {
+                "slug": "gare+des+coquetiers",
+                "name": "Gare des Coquetiers"
+            },
+            {
+                "slug": "la+remise+a+jorelle",
+                "name": "La Remise a Jorelle"
+            },
+            {
+                "slug": "gare+de+bondy",
+                "name": "Gare de Bondy"
+            }
+        ]
+    },
+    "_metadata": {
+        "call": "GET /stations/tramways/4",
+        "date": "2019-03-14T07:03:17+01:00",
+        "version": 3
+    }
+}

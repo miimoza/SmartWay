@@ -3,19 +3,30 @@
 #include <fstream>
 #include <iostream>
 #include <map>
+#include <sstream>
 #include <string>
 
 #include "graph.hh"
 #include "station.hh"
 
 std::map<std::string, std::string> line_colors = {
-    {"1", "#FFCD00"},  {"2", "#003CA6"},  {"3", "#837902"},  {"3b", "#6EC4E8"},
-    {"4", "#CF009E"},  {"5", "#FF7E2E"},  {"6", "#6ECA97"},  {"7", "#FA9ABA"},
-    {"7b", "#6ECA97"}, {"8", "#E19BDF"},  {"9", "#B6BD00"},  {"10", "#C9910D"},
-    {"11", "#704B1C"}, {"12", "#007852"}, {"13", "#6EC4E8"}, {"14", "#62259D"}};
+    {"metros1", "#FFCD00"},    {"metros2", "#003CA6"},
+    {"metros3", "#837902"},    {"metros3b", "#6EC4E8"},
+    {"metros4", "#CF009E"},    {"metros5", "#FF7E2E"},
+    {"metros6", "#6ECA97"},    {"metros7", "#FA9ABA"},
+    {"metros7b", "#6ECA97"},   {"metros8", "#E19BDF"},
+    {"metros9", "#B6BD00"},    {"metros10", "#C9910D"},
+    {"metros11", "#704B1C"},   {"metros12", "#007852"},
+    {"metros13", "#6EC4E8"},   {"metros14", "#62259D"},
+    {"rersA", "#E2231A"},      {"rersB", "#7BA3DC"},
+    {"rersC", "#C9910D"},      {"rersD", "#00AE41"},
+    {"rersE", "#E37ED1"},      {"tramways1", "#003CA6"},
+    {"tramways2", "#CF009E"},  {"tramways3a", "#FF7E2E"},
+    {"tramways3b", "#00AE41"}, {"tramways4", "#E19BDF"},
+    {"tramways5", "grey"},     {"tramways6", "grey"},
+    {"tramways7", "#704B1C"},  {"tramways8", "#837902"}};
 
-static void build_dot_file_rec(std::shared_ptr<Graph> G,
-                               std::shared_ptr<Station> S, std::ofstream& os)
+static void build_dot_file_rec(std::shared_ptr<Graph> G, std::ofstream& os)
 {
     for (auto S : G->station_list)
     {
@@ -34,9 +45,12 @@ static void build_dot_file_rec(std::shared_ptr<Graph> G,
 
             // os << S->get_id() << " [shape=box  , label=\"" << S->get_name()
             // /  << "\"];\n";
+            if (adjs[i].second.first->get_len_adjs() > 2)
+                edge_color = "grey";
 
-            os << child->get_id() << " [shape=box  , style=filled, label=\""
-               << name_child << "\"];\n";
+            os << child->get_id()
+               << " [shape=box  , style=\"filled\", fillcolor=\"" << edge_color
+               << "\", label=<<B>" << name_child << "</B>>];\n";
 
             // if (!child->printed)
             //    build_dot_file_rec(child, os);
@@ -50,7 +64,7 @@ void build_dot_file(std::shared_ptr<Graph> G, const std::string& output_path)
 
     std::ofstream os;
     os.open(output_path);
-    os << "digraph AST {\n";
-    build_dot_file_rec(G, G->station_list[10], os);
+    os << "digraph AST {\nranksep=0.25;\nnodesep=0.5;\n";
+    build_dot_file_rec(G, os);
     os << "}";
 }

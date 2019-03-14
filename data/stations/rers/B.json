@@ -1,0 +1,199 @@
+{
+    "result": {
+        "stations": [
+            {
+                "slug": "aeroport+charles+de+gaulle+2+tgv",
+                "name": "Aeroport Charles de Gaulle 2 TGV"
+            },
+            {
+                "slug": "aeroport+charles+de+gaulle+1",
+                "name": "Aeroport Charles de Gaulle 1"
+            },
+            {
+                "slug": "parc+des+expositions",
+                "name": "Parc des Expositions"
+            },
+            {
+                "slug": "villepinte",
+                "name": "Villepinte"
+            },
+            {
+                "slug": "sevran+beaudottes",
+                "name": "Sevran-Beaudottes"
+            },
+            {
+                "slug": "mitry+claye",
+                "name": "Mitry-Claye"
+            },
+            {
+                "slug": "villeparisis",
+                "name": "Villeparisis"
+            },
+            {
+                "slug": "vert+galant",
+                "name": "Vert-Galant"
+            },
+            {
+                "slug": "sevran+livry",
+                "name": "Sevran Livry"
+            },
+            {
+                "slug": "aulnay+sous+bois",
+                "name": "Aulnay-sous-Bois"
+            },
+            {
+                "slug": "blanc+mesnil",
+                "name": "Blanc-Mesnil"
+            },
+            {
+                "slug": "drancy",
+                "name": "Drancy"
+            },
+            {
+                "slug": "le+bourget",
+                "name": "Le Bourget"
+            },
+            {
+                "slug": "la+courneuve+aubervilliers",
+                "name": "La Courneuve-Aubervilliers"
+            },
+            {
+                "slug": "la+plaine+stade+de+france",
+                "name": "La Plaine-Stade de France"
+            },
+            {
+                "slug": "gare+du+nord",
+                "name": "Gare du Nord"
+            },
+            {
+                "slug": "chatelet+les+halles",
+                "name": "Chatelet-Les Halles"
+            },
+            {
+                "slug": "saint+michel+notre+dame",
+                "name": "Saint-Michel Notre-Dame"
+            },
+            {
+                "slug": "luxembourg",
+                "name": "Luxembourg"
+            },
+            {
+                "slug": "port+royal",
+                "name": "Port-Royal"
+            },
+            {
+                "slug": "denfert+rochereau",
+                "name": "Denfert-Rochereau"
+            },
+            {
+                "slug": "cite+universitaire",
+                "name": "Cite Universitaire"
+            },
+            {
+                "slug": "gentilly",
+                "name": "Gentilly"
+            },
+            {
+                "slug": "laplace",
+                "name": "Laplace"
+            },
+            {
+                "slug": "arcueil+cachan",
+                "name": "Arcueil-Cachan"
+            },
+            {
+                "slug": "bagneux",
+                "name": "Bagneux"
+            },
+            {
+                "slug": "bourg+la+reine",
+                "name": "Bourg-la-Reine"
+            },
+            {
+                "slug": "sceaux",
+                "name": "Sceaux"
+            },
+            {
+                "slug": "fontenay+aux+roses",
+                "name": "Fontenay-aux-Roses"
+            },
+            {
+                "slug": "robinson",
+                "name": "Robinson"
+            },
+            {
+                "slug": "parc+de+sceaux",
+                "name": "Parc de Sceaux"
+            },
+            {
+                "slug": "la+croix+de+berny",
+                "name": "La Croix-de-Berny"
+            },
+            {
+                "slug": "antony",
+                "name": "Antony"
+            },
+            {
+                "slug": "fontaine+michalon",
+                "name": "Fontaine-Michalon"
+            },
+            {
+                "slug": "les+baconnets",
+                "name": "Les Baconnets"
+            },
+            {
+                "slug": "massy+verrieres",
+                "name": "Massy-Verrieres"
+            },
+            {
+                "slug": "massy+palaiseau",
+                "name": "Massy-Palaiseau"
+            },
+            {
+                "slug": "palaiseau",
+                "name": "Palaiseau"
+            },
+            {
+                "slug": "palaiseau+villebon",
+                "name": "Palaiseau Villebon"
+            },
+            {
+                "slug": "lozere",
+                "name": "Lozere"
+            },
+            {
+                "slug": "le+guichet",
+                "name": "Le Guichet"
+            },
+            {
+                "slug": "orsay+ville",
+                "name": "Orsay-Ville"
+            },
+            {
+                "slug": "bures+sur+yvette",
+                "name": "Bures-sur-Yvette"
+            },
+            {
+                "slug": "la+hacquiniere",
+                "name": "La Hacquiniere"
+            },
+            {
+                "slug": "gif+sur+yvette",
+                "name": "Gif-sur-Yvette"
+            },
+            {
+                "slug": "courcelle+sur+yvette",
+                "name": "Courcelle-sur-Yvette"
+            },
+            {
+                "slug": "saint+remy+les+chevreuse",
+                "name": "Saint-Remy-les-Chevreuse"
+            }
+        ]
+    },
+    "_metadata": {
+        "call": "GET /stations/rers/B",
+        "date": "2019-03-14T07:03:10+01:00",
+        "version": 3
+    }
+}
