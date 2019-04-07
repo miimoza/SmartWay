@@ -43,19 +43,13 @@ static void build_dot_file_rec(std::shared_ptr<Graph> G, std::ofstream& os)
 
             std::string edge_color = line_colors[adjs[i].first];
             os << S->get_id() << "->" << child->get_id()
-               << "[  penwidth=3, color=\"" << edge_color << "\"];\n";
+               << "[penwidth=3,color=\"" << edge_color << "\"];\n";
 
-            // os << S->get_id() << " [shape=box  , label=\"" << S->get_name()
-            // /  << "\"];\n";
             if (adjs[i].second.first->get_len_adjs() > 2)
                 edge_color = "grey";
 
-            os << child->get_id()
-               << " [shape=box  , style=\"filled\", fillcolor=\"" << edge_color
-               << "\", label=<<B>" << name_child << "</B>>];\n";
-
-            // if (!child->printed)
-            //    build_dot_file_rec(child, os);
+            os << child->get_id() << " [shape=box,style=\"filled\",fillcolor=\""
+               << edge_color << "\",label=<<B>" << name_child << "</B>>];\n";
         }
     }
 }

@@ -71,10 +71,9 @@ static void fill_adj_station(station_vect v, std::shared_ptr<Station> s, json l,
     }
 }
 
-static void update_adj_lists(station_vect v, const std::string& type)
+static void update_adj_lists(std::shared_ptr<Graph> g, const std::string& type)
 {
-    json jsn_lines = stream_to_json("data/lines.json");
-    for (auto l : jsn_lines["result"][type])
+    for (auto l : g->lines_["result"][type])
     {
         std::stringstream line_path;
         std::string code(l["code"]);
@@ -84,13 +83,13 @@ static void update_adj_lists(station_vect v, const std::string& type)
         l = line["result"]["stations"];
         for (size_t i = 0; i < l.size(); i++)
         {
-            auto station = get_station(v, l[i]["slug"]);
+            auto station = get_station(g->station_list, l[i]["slug"]);
             std::stringstream line_id;
             line_id << type << code;
             if (!station)
                 std::cerr << "error no station named " << l[i]["slug"] << "\n";
             else
-                fill_adj_station(v, station, l, line_id.str(), i);
+                fill_adj_station(g->station_list, station, l, line_id.str(), i);
         }
     }
 }
@@ -101,15 +100,14 @@ static void update_id(station_vect v)
         v[i]->set_id(i);
 }
 
-static station_vect init_stations(station_vect station_list,
+static station_vect init_stations(std::shared_ptr<Graph> g,
                                   const std::string& type)
 {
     Log log("Init Stations");
 
     log << "Init stations list...\n";
-    json jsn_lines = stream_to_json("data/lines.json");
 
-    for (auto l : jsn_lines["result"][type])
+    for (auto l : g->lines_["result"][type])
     {
         std::stringstream line_path;
         std::string code(l["code"]);
@@ -118,18 +116,17 @@ static station_vect init_stations(station_vect station_list,
         json line = stream_to_json(line_path.str());
         for (auto s_js : line["result"]["stations"])
         {
-            log << "	Adding station " << s_js["slug"] << "\n";
-            auto station = get_station(station_list, s_js["slug"]);
+            log << "Adding station " << s_js["slug"] << "\n";
+            auto station = get_station(g->station_list, s_js["slug"]);
             if (!station)
             {
                 std::shared_ptr<Station> station =
                     std::make_shared<Station>(s_js["name"], s_js["slug"]);
-
                 std::stringstream line_id;
                 line_id << type << code;
 
                 station->add_line(line_id.str());
-                station_list.push_back(station);
+                g->station_list.push_back(station);
             } else
             {
                 std::stringstream line_id;
@@ -139,17 +136,17 @@ static station_vect init_stations(station_vect station_list,
         }
     }
 
-    return station_list;
+    return g->station_list;
 }
 
-static station_vect init_vector()
+static station_vect init_vector(std::shared_ptr<Graph> g)
 {
     station_vect station_list;
 
-    station_list = init_stations(station_list, "metros");
-    station_list = init_stations(station_list, "rers");
-    station_list = init_stations(station_list, "tramways");
-    station_list = init_stations(station_list, "bus");
+    station_list = init_stations(g, "metros");
+    station_list = init_stations(g, "rers");
+    station_list = init_stations(g, "tramways");
+    station_list = init_stations(g, "bus");
 
     return station_list;
 }
@@ -162,12 +159,13 @@ static void correct_failure(station_vect v)
 std::shared_ptr<Graph> create_graph()
 {
     std::shared_ptr<Graph> g = std::make_shared<Graph>();
-    g->station_list = init_vector();
+    g->lines_ = stream_to_json("data/lines.json");
+    g->station_list = init_vector(g);
 
-    update_adj_lists(g->station_list, "metros");
-    update_adj_lists(g->station_list, "rers");
-    update_adj_lists(g->station_list, "tramways");
-    update_adj_lists(g->station_list, "bus");
+    update_adj_lists(g, "metros");
+    update_adj_lists(g, "rers");
+    update_adj_lists(g, "tramways");
+    update_adj_lists(g, "bus");
 
     update_id(g->station_list);
 
