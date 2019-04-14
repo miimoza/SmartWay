@@ -364,7 +364,7 @@
             {
                 "code": "35",
                 "name": "Bus RATP 35",
-                "directions": "Gare de l'Est / Mairie d'Aubervilliers",
+                "directions": "Gare de l'Est ( a Sup) / Mairie d'Aubervilliers",
                 "id": "306415"
             },
             {
@@ -485,7 +485,7 @@
                 "code": "63",
                 "name": "Bus RATP 63",
                 "directions": "Porte de la Muette / Gare de Lyon",
-                "id": "196150"
+                "id": "442748"
             },
             {
                 "code": "64",
@@ -2396,6 +2396,12 @@
                 "id": "191356"
             },
             {
+                "code": "63",
+                "name": "Bus RATP 63",
+                "directions": "Porte de la Muette / Gare de Lyon (A Supp)",
+                "id": "196150"
+            },
+            {
                 "code": "64",
                 "name": "Bus RATP 64",
                 "directions": "Place d'Italie / Gambetta - Mairie du 20e",
@@ -4129,7 +4135,7 @@
     },
     "_metadata": {
         "call": "GET /lines",
-        "date": "2019-04-07T20:22:36+02:00",
+        "date": "2019-04-14T23:11:32+02:00",
         "version": 3
     }
 }

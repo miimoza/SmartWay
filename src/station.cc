@@ -1,5 +1,7 @@
 #include "station.hh"
 
+#include <fstream>
+
 using adjacency_station =
     std::pair<std::string,
               std::pair<std::shared_ptr<Station>, std::pair<size_t, size_t>>>;
@@ -88,9 +90,9 @@ bool Station::is_visited()
     return visited_;
 }
 
-void Station::set_visited()
+void Station::set_visited(bool b)
 {
-    visited_ = true;
+    visited_ = b;
 }
 
 std::shared_ptr<Station> Station::get_best_parent()
@@ -111,4 +113,12 @@ int Station::get_path_value()
 void Station::set_path_value(int n)
 {
     path_value_ = n;
+}
+
+void Station::dump(Log l)
+{
+    std::string bp = (best_parent_) ? best_parent_->get_name() : "null";
+    l << name_ << " -> "
+      << " pv: " << path_value_ << " bp: " << bp << " visit: " << visited_
+      << "\n";
 }

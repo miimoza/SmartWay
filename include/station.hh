@@ -5,6 +5,8 @@
 #include <utility>
 #include <vector>
 
+#include "log.hh"
+
 class Station
 {
     // <Station, <Temps de changement + Temps d'Attente, Temps de parcours>>
@@ -31,11 +33,14 @@ public:
 
     // djikstra stuff
     bool is_visited();
-    void set_visited();
+    void set_visited(bool b);
     std::shared_ptr<Station> get_best_parent();
     void set_best_parent(std::shared_ptr<Station> S);
     int get_path_value();
     void set_path_value(int n);
+
+    // Graphic Stuff
+    void dump(Log l);
 
 private:
     adjacency_list adj_stations_;

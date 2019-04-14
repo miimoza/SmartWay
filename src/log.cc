@@ -35,8 +35,6 @@ std::ostream& Log::operator<<(std::string message)
         s << tag_ << "\033[0m" << std::setw(12 - tag_.length()) << "] "
           << message;
         return s;
-    } else
-    {
-        return *NULLOSTREAM;
     }
+    return *NULLOSTREAM;
 }

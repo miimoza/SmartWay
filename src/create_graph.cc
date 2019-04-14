@@ -1,3 +1,4 @@
+#include <climits>
 #include <fstream>
 #include <iostream>
 #include <memory>
@@ -93,6 +94,16 @@ static void update_adj_lists(std::shared_ptr<Graph> g, const std::string& type)
     }
 }
 
+void init_dijkstra(station_vect v)
+{
+    for (size_t i = 0; i < v.size(); i++)
+    {
+        v[i]->set_visited(false);
+        v[i]->set_path_value(INT_MAX);
+        v[i]->set_best_parent(nullptr);
+    }
+}
+
 static void update_id(station_vect v)
 {
     for (size_t i = 0; i < v.size(); i++)
@@ -168,17 +179,18 @@ std::shared_ptr<Graph> create_graph()
     update_adj_lists(g, "bus");
 
     update_id(g->station_list);
+    init_dijkstra(g->station_list);
 
     correct_failure(g->station_list);
 
-    Log l("Adjency");
+    Log log("Adjency");
     for (auto s : g->station_list)
     {
         for (auto l : s->get_lines())
-            std::cout << s->get_name() << " avec la " << l << "\n";
+            log << s->get_name() << " avec la " << l << "\n";
         for (auto a : s->get_adjs())
-            std::cout << "		ajdacent a " << a.second.first->get_name()
-                      << " sur la ligne " << a.first << "\n";
+            log << "		ajdacent a " << a.second.first->get_name()
+                << " sur la ligne " << a.first << "\n";
     }
 
     return g;

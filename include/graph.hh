@@ -18,3 +18,4 @@ public:
 
 std::shared_ptr<Graph> create_graph();
 std::shared_ptr<Station> get_station(station_vect v, const std::string& slug);
+void init_dijkstra(station_vect v);
