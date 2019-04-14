@@ -2,6 +2,7 @@
 #include <iostream>
 
 #include "graph.hh"
+#include "itinerary.hh"
 #include "json.hpp"
 #include "utils.hh"
 
@@ -11,10 +12,14 @@ int main(int argc, char* argv[])
 {
     (void)argc;
     (void)argv;
-    std::cout << "Welcome to IDF SIMULATOR\n";
+    std::cout << "Welcome to Smart Way\n";
 
     auto G = create_graph();
-    build_dot_file(G, "output.dot");
 
+    while (true)
+        smartway(G);
+
+    if (argc >= 3 && !strcmp(argv[1], "-d"))
+        build_dot_file(G, argv[2]);
     return 0;
 }

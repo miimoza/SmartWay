@@ -53,6 +53,24 @@ std::shared_ptr<Station> Station::get_adj(const std::string& slug)
     return NULL;
 }
 
+adjacency_station Station::get_adj_index(size_t i)
+{
+    return adj_stations_[i];
+}
+
+size_t Station::get_adj_size()
+{
+    return adj_stations_.size();
+}
+
+std::string Station::get_adj_line(const std::string& slug)
+{
+    for (auto s : adj_stations_)
+        if (!slug.compare(s.second.first->get_slug()))
+            return s.first;
+    return NULL;
+}
+
 std::string Station::get_name()
 {
     return name_;
@@ -61,4 +79,36 @@ std::string Station::get_name()
 std::string Station::get_slug()
 {
     return slug_;
+}
+
+// DIJKSTRA STUFF
+
+bool Station::is_visited()
+{
+    return visited_;
+}
+
+void Station::set_visited()
+{
+    visited_ = true;
+}
+
+std::shared_ptr<Station> Station::get_best_parent()
+{
+    return best_parent_;
+}
+
+void Station::set_best_parent(std::shared_ptr<Station> S)
+{
+    best_parent_ = S;
+}
+
+int Station::get_path_value()
+{
+    return path_value_;
+}
+
+void Station::set_path_value(int n)
+{
+    path_value_ = n;
 }

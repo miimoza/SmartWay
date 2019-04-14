@@ -1,5 +1,6 @@
 #include "utils.hh"
 
+#include <algorithm>
 #include <fstream>
 #include <iostream>
 #include <map>
@@ -26,6 +27,13 @@ std::map<std::string, std::string> line_colors = {
     {"tramways3b", "#00AE41"}, {"tramways4", "#E19BDF"},
     {"tramways5", "grey"},     {"tramways6", "grey"},
     {"tramways7", "#704B1C"},  {"tramways8", "#837902"}};
+
+std::string to_slug(std::string s)
+{
+    std::transform(s.begin(), s.end(), s.begin(), ::tolower);
+    std::replace(s.begin(), s.end(), ' ', '+');
+    return s;
+}
 
 static void build_dot_file_rec(std::shared_ptr<Graph> G, std::ofstream& os)
 {

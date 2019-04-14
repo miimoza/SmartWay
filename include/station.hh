@@ -22,9 +22,20 @@ public:
     adjacency_list get_adjs();
     size_t get_len_adjs();
     std::shared_ptr<Station> get_adj(const std::string& slug);
+    adjacency_station get_adj_index(size_t i);
+    std::string get_adj_line(const std::string& slug);
+    size_t get_adj_size();
     std::string get_name();
     size_t get_id();
     std::string get_slug();
+
+    // djikstra stuff
+    bool is_visited();
+    void set_visited();
+    std::shared_ptr<Station> get_best_parent();
+    void set_best_parent(std::shared_ptr<Station> S);
+    int get_path_value();
+    void set_path_value(int n);
 
 private:
     adjacency_list adj_stations_;
@@ -32,4 +43,9 @@ private:
     std::string name_;
     std::string slug_;
     std::size_t id_;
+
+    // djikstra stuff
+    bool visited_;
+    int path_value_;
+    std::shared_ptr<Station> best_parent_;
 };

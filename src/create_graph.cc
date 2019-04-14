@@ -35,8 +35,7 @@ static json stream_to_json(const std::string& filename)
     return j;
 }
 
-static std::shared_ptr<Station> get_station(station_vect v,
-                                            const std::string& slug)
+std::shared_ptr<Station> get_station(station_vect v, const std::string& slug)
 {
     for (auto s : v)
         if (!slug.compare(s->get_slug()))
@@ -153,6 +152,7 @@ static station_vect init_vector(std::shared_ptr<Graph> g)
 
 static void correct_failure(station_vect v)
 {
+    (void)v;
     std::cout << "Correcting failure...\n";
 }
 
