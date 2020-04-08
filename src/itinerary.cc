@@ -22,6 +22,7 @@ static void print_path(path_type path)
                   << "[" << line << "]\n"
                   << "  ||\n"
                   << "  \\/\n";
+        
         if (i == 0)
             std::cout << "\033[1;32m" << path[i]->get_name() << "\033[0m\n";
         else
@@ -38,7 +39,10 @@ static int get_cost(std::shared_ptr<Station> A, adjacency_station B)
     current_line = B.first.c_str();
 
     if (strcmp(current_line.c_str(), B.first.c_str()))
+    {
         cost = 5;
+        std::cout << "cost =5\n";
+    }
     cost = 2;
     return cost;
 }
@@ -151,6 +155,9 @@ path_type get_path(std::shared_ptr<Graph> G, std::shared_ptr<Station> src,
 
 void smartway(std::shared_ptr<Graph> G)
 {
+    std::cout << "[3/3] Init Dijkstra Algorithm\n";
+    init_dijkstra(G->station_list);
+
     Log l("SmartWay");
     Log l2("SmartWay", true);
     l << "Lets go find a itinerary\n";

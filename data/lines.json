@@ -184,6 +184,12 @@
                 "id": "355743"
             },
             {
+                "code": "C",
+                "name": "RER C",
+                "directions": "Versailles-Chantiers / Versailles-Chantiers.",
+                "id": "468706"
+            },
+            {
                 "code": "D",
                 "name": "RER D",
                 "directions": "Melun / Orry la Ville-Creil",
@@ -230,8 +236,8 @@
             {
                 "code": "1",
                 "name": "Tramway T1",
-                "directions": "Les Courtilles / Noisy-Le-Sec RER",
-                "id": "197891"
+                "directions": "Asnieres - Quatre Routes / Gare de Noisy-Le-Sec",
+                "id": "460282"
             },
             {
                 "code": "2",
@@ -254,8 +260,8 @@
             {
                 "code": "4",
                 "name": "Tramway T4",
-                "directions": "Gare de Bondy / Gare d'Aulnay Sous Bois",
-                "id": "39837"
+                "directions": "Gare de Bondy / Arboretum",
+                "id": "476764"
             },
             {
                 "code": "5",
@@ -282,6 +288,12 @@
                 "id": "252615"
             },
             {
+                "code": "4",
+                "name": "Tramway T4",
+                "directions": "Gare de Bondy / Gare d'Aulnay Sous Bois",
+                "id": "39837"
+            },
+            {
                 "code": "8",
                 "name": "Tramway T8",
                 "directions": "Villetaneuse-Universite / Saint-Denis - Porte de Paris",
@@ -292,26 +304,26 @@
             {
                 "code": "20",
                 "name": "Bus RATP 20",
-                "directions": "Gare de Lyon / Gare Saint-Lazare",
-                "id": "248740"
+                "directions": "Porte des Lilas / Louison Bobet",
+                "id": "438032"
             },
             {
                 "code": "21",
                 "name": "Bus RATP 21",
-                "directions": "Stade Charlety - Porte de Gentilly / Gare Saint-Lazare",
-                "id": "196138"
+                "directions": "Stade Charlety - Porte de Gentilly / Porte de Saint-Ouen -Hopital Bichat",
+                "id": "437449"
             },
             {
                 "code": "22",
                 "name": "Bus RATP 22",
-                "directions": "Porte de Saint-Cloud / Opera",
-                "id": "208978"
+                "directions": "Porte de Saint-Cloud / Gare Saint-Lazare",
+                "id": "465779"
             },
             {
                 "code": "24",
                 "name": "Bus RATP 24",
-                "directions": "Gare Saint-Lazare",
-                "id": "193498"
+                "directions": "(Ecole Veterinaire) / Pantheon",
+                "id": "438035"
             },
             {
                 "code": "25",
@@ -323,7 +335,7 @@
                 "code": "26",
                 "name": "Bus RATP 26",
                 "directions": "Nation - Trone / Gare Saint-Lazare",
-                "id": "300459"
+                "id": "436163"
             },
             {
                 "code": "27",
@@ -334,20 +346,20 @@
             {
                 "code": "28",
                 "name": "Bus RATP 28",
-                "directions": "Gare Saint-Lazare / Porte d'Orleans",
-                "id": "196135"
+                "directions": "Gare Saint-Lazare / Gare Montparnasse",
+                "id": "438042"
             },
             {
                 "code": "29",
                 "name": "Bus RATP 29",
                 "directions": "Porte de Montempoivre / Gare Saint-Lazare",
-                "id": "195185"
+                "id": "436207"
             },
             {
                 "code": "30",
                 "name": "Bus RATP 30",
-                "directions": "Trocadero / Gare de l'Est",
-                "id": "194733"
+                "directions": "(Hopital Europeen G. Pompidou) / Pigalle",
+                "id": "436890"
             },
             {
                 "code": "31",
@@ -364,14 +376,14 @@
             {
                 "code": "35",
                 "name": "Bus RATP 35",
-                "directions": "Gare de l'Est ( a Sup) / Mairie d'Aubervilliers",
-                "id": "306415"
+                "directions": "Gare de l'Est / Mairie d'Aubervilliers",
+                "id": "438050"
             },
             {
                 "code": "38",
                 "name": "Bus RATP 38",
-                "directions": "Porte d'Orleans / Gare du Nord",
-                "id": "196132"
+                "directions": "Porte d'Orleans / Porte de la Chapelle",
+                "id": "438920"
             },
             {
                 "code": "39",
@@ -388,14 +400,14 @@
             {
                 "code": "42",
                 "name": "Bus RATP 42",
-                "directions": "Boulogne - Ile Seguin / Gare Saint-Lazare",
+                "directions": "Cours de l'Ile Seguin / Gare Saint-Lazare",
                 "id": "436970"
             },
             {
                 "code": "43",
                 "name": "Bus RATP 43",
-                "directions": "Bagatelle / Gare du Nord",
-                "id": "195287"
+                "directions": "Hippodrome de Longchamp / Gare du Nord",
+                "id": "463398"
             },
             {
                 "code": "45",
@@ -412,26 +424,20 @@
             {
                 "code": "47",
                 "name": "Bus RATP 47",
-                "directions": "Fort du Kremlin-Bicetre / Gare de l'Est",
-                "id": "264617"
+                "directions": "Chatelet / Fort du Kremlin-Bicetre",
+                "id": "438927"
             },
             {
                 "code": "48",
                 "name": "Bus RATP 48",
-                "directions": "Palais Royal - Musee du Louvre / Porte des Lilas",
-                "id": "195288"
+                "directions": "Gare du Nord / Porte des Lilas",
+                "id": "436171"
             },
             {
                 "code": "52",
                 "name": "Bus RATP 52",
-                "directions": "Parc de Saint-Cloud / Opera",
-                "id": "208964"
-            },
-            {
-                "code": "53",
-                "name": "Bus RATP 53",
-                "directions": "Pont de Levallois / Opera",
-                "id": "196149"
+                "directions": "Parc de Saint-Cloud / Opera - Rue Halevy",
+                "id": "464656"
             },
             {
                 "code": "54",
@@ -443,7 +449,7 @@
                 "code": "56",
                 "name": "Bus RATP 56",
                 "directions": "Chateau de Vincennes / Porte de Clignancourt",
-                "id": "345480"
+                "id": "436169"
             },
             {
                 "code": "57",
@@ -466,8 +472,8 @@
             {
                 "code": "60",
                 "name": "Bus RATP 60",
-                "directions": "Porte de Montmartre / Gambetta",
-                "id": "306959"
+                "directions": "Porte de Montmartre / Gambetta - Japon",
+                "id": "438034"
             },
             {
                 "code": "61",
@@ -484,20 +490,14 @@
             {
                 "code": "63",
                 "name": "Bus RATP 63",
-                "directions": "Porte de la Muette / Gare de Lyon",
-                "id": "442748"
+                "directions": "Porte de la Muette / Gare de Lyon - Maison de la Ratp",
+                "id": "461302"
             },
             {
                 "code": "64",
                 "name": "Bus RATP 64",
                 "directions": "Denfert-Rochereau / Porte des Lilas",
                 "id": "438049"
-            },
-            {
-                "code": "65",
-                "name": "Bus RATP 65",
-                "directions": "Porte de la Chapelle / Gare de Lyon",
-                "id": "263522"
             },
             {
                 "code": "66",
@@ -508,8 +508,8 @@
             {
                 "code": "67",
                 "name": "Bus RATP 67",
-                "directions": "Stade Charlety-Porte de Gentilly / Pigalle",
-                "id": "196129"
+                "directions": "Stade Charlety - Porte de Gentilly / Palais Royal - Musee du Louvre",
+                "id": "437451"
             },
             {
                 "code": "68",
@@ -520,14 +520,14 @@
             {
                 "code": "69",
                 "name": "Bus RATP 69",
-                "directions": "Champs de Mars / Gambetta",
-                "id": "191950"
+                "directions": "Champ de Mars / Gambetta - Mairie du 20e",
+                "id": "441410"
             },
             {
                 "code": "70",
                 "name": "Bus RATP 70",
-                "directions": "Radio France / Hotel de Ville de Paris",
-                "id": "198709"
+                "directions": "Suresnes - de Gaulle / Hotel de Ville",
+                "id": "463863"
             },
             {
                 "code": "71",
@@ -538,8 +538,8 @@
             {
                 "code": "72",
                 "name": "Bus RATP 72",
-                "directions": "Parc de Saint-Cloud / Hotel de Ville de Paris",
-                "id": "304525"
+                "directions": "Gare de Lyon - Maison de la Ratp / Parc de Saint-Cloud",
+                "id": "436175"
             },
             {
                 "code": "73",
@@ -550,8 +550,8 @@
             {
                 "code": "74",
                 "name": "Bus RATP 74",
-                "directions": "Clichy - Berges de Seine / Hotel de Ville de Paris",
-                "id": "209433"
+                "directions": "Clichy - Berges de Seine / Chatelet",
+                "id": "436181"
             },
             {
                 "code": "75",
@@ -562,8 +562,8 @@
             {
                 "code": "76",
                 "name": "Bus RATP 76",
-                "directions": "Bagnolet-Louise Michel / Louvre - Rivoli",
-                "id": "191954"
+                "directions": "Louise Michel / Chatelet",
+                "id": "437450"
             },
             {
                 "code": "77",
@@ -575,13 +575,7 @@
                 "code": "80",
                 "name": "Bus RATP 80",
                 "directions": "Mairie du 18e - Jules Joffrin / Porte de Versailles",
-                "id": "195291"
-            },
-            {
-                "code": "81",
-                "name": "Bus RATP 81",
-                "directions": "Porte de Saint-Ouen / Chatelet",
-                "id": "209434"
+                "id": "438047"
             },
             {
                 "code": "82",
@@ -592,8 +586,8 @@
             {
                 "code": "83",
                 "name": "Bus RATP 83",
-                "directions": "Porte d'Ivry / Friedland - Haussmann",
-                "id": "203000"
+                "directions": "Porte d'Ivry / Invalides",
+                "id": "438045"
             },
             {
                 "code": "84",
@@ -604,8 +598,8 @@
             {
                 "code": "85",
                 "name": "Bus RATP 85",
-                "directions": "Saint-Ouen - les Docks / Luxembourg",
-                "id": "303483"
+                "directions": "Saint-Ouen - les Docks / Chatelet",
+                "id": "468709"
             },
             {
                 "code": "86",
@@ -616,8 +610,8 @@
             {
                 "code": "87",
                 "name": "Bus RATP 87",
-                "directions": "Porte de Reuilly / Champ de Mars",
-                "id": "198711"
+                "directions": "Porte de Reuilly / Jussieu - Mineraux",
+                "id": "440091"
             },
             {
                 "code": "88",
@@ -634,8 +628,8 @@
             {
                 "code": "91",
                 "name": "Bus RATP 91",
-                "directions": "Bastille / Montparnasse 2 - Gare Tgv",
-                "id": "196145"
+                "directions": "Gare du Nord / Montparnasse 2 - Gare Tgv",
+                "id": "438037"
             },
             {
                 "code": "92",
@@ -647,7 +641,7 @@
                 "code": "93",
                 "name": "Bus RATP 93",
                 "directions": "Suresnes-De Gaulle / Invalides",
-                "id": "209712"
+                "id": "438122"
             },
             {
                 "code": "94",
@@ -664,8 +658,8 @@
             {
                 "code": "96",
                 "name": "Bus RATP 96",
-                "directions": "Porte des Lilas / Gare Montparnasse",
-                "id": "191958"
+                "directions": "Porte des Lilas-Metro / Gare Montparnasse",
+                "id": "436173"
             },
             {
                 "code": "101",
@@ -845,7 +839,7 @@
                 "code": "131",
                 "name": "Bus RATP 131",
                 "directions": "Rungis - la Fraternelle RER / Porte d'Italie-Metro",
-                "id": "201696"
+                "id": "438934"
             },
             {
                 "code": "132",
@@ -1012,7 +1006,7 @@
             {
                 "code": "167",
                 "name": "Bus RATP 167",
-                "directions": "(Colombes - Pont de Levallois) / Piscine - Patinoire",
+                "directions": "Colombes - Pont de Levallois / Piscine - Patinoire",
                 "id": "412081"
             },
             {
@@ -1024,13 +1018,13 @@
             {
                 "code": "169",
                 "name": "Bus RATP 169",
-                "directions": "Pont de Sevres-Metro / Hopital Europeen Georges Pompidou",
-                "id": "234368"
+                "directions": "Pont de Sevres / Hopital Europeen Georges Pompidou",
+                "id": "468700"
             },
             {
                 "code": "170",
                 "name": "Bus RATP 170",
-                "directions": "Saint-Denis RER / (Porte des Lilas - Saint-Denis RER)",
+                "directions": "Gare de Saint-Denis RER / Porte des Lilas-Metro",
                 "id": "208985"
             },
             {
@@ -1084,7 +1078,7 @@
             {
                 "code": "179",
                 "name": "Bus RATP 179",
-                "directions": "(Pont de Sevres - Robinson RER) / Pont de Sevres",
+                "directions": "Robinson RER / Pont de Sevres",
                 "id": "270286"
             },
             {
@@ -1114,7 +1108,7 @@
             {
                 "code": "184",
                 "name": "Bus RATP 184",
-                "directions": "Pasteur / Porte d'Italie-Metro",
+                "directions": "Fresnes-Pasteur / Porte d'Italie - Helene Boucher",
                 "id": "346943"
             },
             {
@@ -1166,6 +1160,12 @@
                 "id": "254621"
             },
             {
+                "code": "193",
+                "name": "Bus RATP 193",
+                "directions": "Mairie de l'Hay-Les-Roses / Arcueil - Lenine",
+                "id": "455607"
+            },
+            {
                 "code": "194",
                 "name": "Bus RATP 194",
                 "directions": "Lycee Polyvalent / Porte d'Orleans",
@@ -1210,8 +1210,8 @@
             {
                 "code": "206",
                 "name": "Bus RATP 206",
-                "directions": "Emerainville-Pontault Combault-Sncf / Noisy le Grand Mont d'Est-RER",
-                "id": "242380"
+                "directions": "Place de Beilstein / Noisy le Grand Mont d'Est-RER",
+                "id": "472600"
             },
             {
                 "code": "207",
@@ -1228,8 +1228,8 @@
             {
                 "code": "210",
                 "name": "Bus RATP 210",
-                "directions": "Villiers - le Plessis-Trevise RER / Chateau de Vincennes",
-                "id": "209921"
+                "directions": "Villiers-Sur-Marne - le Plessis / Chateau de Vincennes",
+                "id": "480113"
             },
             {
                 "code": "211",
@@ -1342,7 +1342,7 @@
             {
                 "code": "249",
                 "name": "Bus RATP 249",
-                "directions": "Place Valerie Andre / Porte des Lilas",
+                "directions": "Dugny-Place Valerie Andre / Porte des Lilas",
                 "id": "441365"
             },
             {
@@ -1418,6 +1418,12 @@
                 "id": "209727"
             },
             {
+                "code": "263",
+                "name": "Bus RATP 263",
+                "directions": "Place de la Boule - Gambetta / (Suresnes de Gaulle)",
+                "id": "479143"
+            },
+            {
                 "code": "268",
                 "name": "Bus RATP 268",
                 "directions": "Villiers le Bel - RER / Saint-Denis - Universite",
@@ -1427,7 +1433,7 @@
                 "code": "269",
                 "name": "Bus RATP 269",
                 "directions": "Hotel de Ville d'Attainville / Garges-Sarcelles RER",
-                "id": "365097"
+                "id": "454920"
             },
             {
                 "code": "270",
@@ -1474,8 +1480,8 @@
             {
                 "code": "285",
                 "name": "Bus RATP 285",
-                "directions": "Porte de l'Essonne / (Athis-Mons - Porte de l'Essonne)",
-                "id": "396878"
+                "directions": "Juvisy-RER / Porte de l'Essonne",
+                "id": "468701"
             },
             {
                 "code": "286",
@@ -1504,7 +1510,7 @@
             {
                 "code": "292",
                 "name": "Bus RATP 292",
-                "directions": "Zac les Gatines - Cap Jean d'Hers / Porte de l'Essonne",
+                "directions": "Zac les Gatines - Cap Jean d'Hers / Athis-Mons - Porte de l'Essonne",
                 "id": "229287"
             },
             {
@@ -1516,8 +1522,8 @@
             {
                 "code": "297",
                 "name": "Bus RATP 297",
-                "directions": "Place Charles Steber / Porte d'Orleans-Metro",
-                "id": "257778"
+                "directions": "Place Charles Steber / Antony RER",
+                "id": "459608"
             },
             {
                 "code": "299",
@@ -1618,8 +1624,8 @@
             {
                 "code": "325",
                 "name": "Bus RATP 325",
-                "directions": "Chateau de Vincennes / Bibliotheque Francois Mitterrand",
-                "id": "303481"
+                "directions": "Chateau de Vincennes / Quai de la Gare",
+                "id": "436160"
             },
             {
                 "code": "330",
@@ -1672,8 +1678,8 @@
             {
                 "code": "350",
                 "name": "Bus RATP 350",
-                "directions": "Roissypole / Gare de l'Est",
-                "id": "191019"
+                "directions": "Roissypole - Gare - RER / Porte de la Chapelle",
+                "id": "436166"
             },
             {
                 "code": "351",
@@ -1745,7 +1751,7 @@
                 "code": "378",
                 "name": "Bus RATP 378",
                 "directions": "Les Courtilles / Nanterre-Ville RER",
-                "id": "209732"
+                "id": "448186"
             },
             {
                 "code": "379",
@@ -1762,13 +1768,13 @@
             {
                 "code": "385",
                 "name": "Bus RATP 385",
-                "directions": "Marche de Juvisy / Gare d'Epinay-Sur-Orge RER",
-                "id": "331762"
+                "directions": "Juvisy RER / Gare d'Epinay-Sur-Orge RER",
+                "id": "464657"
             },
             {
                 "code": "388",
                 "name": "Bus RATP 388",
-                "directions": "(Gare de Bourg-La-Reine RER) / Porte d'Orleans",
+                "directions": "Bourg-La-Reine RER / Porte d'Orleans",
                 "id": "419056"
             },
             {
@@ -1816,8 +1822,8 @@
             {
                 "code": "399",
                 "name": "Bus RATP 399",
-                "directions": "Marche de Juvisy / Massy-Palaiseau RER",
-                "id": "335077"
+                "directions": "Juvisy RER / Massy-Palaiseau RER",
+                "id": "478204"
             },
             {
                 "code": "421",
@@ -1846,8 +1852,8 @@
             {
                 "code": "471",
                 "name": "Bus RATP 471",
-                "directions": "Gare de Versailles-Rive Droite / Saint-Cloud-Les Coteaux",
-                "id": "237733"
+                "directions": "Gare de Versailles - Rive Droite / les Coteaux-T2",
+                "id": "453565"
             },
             {
                 "code": "485",
@@ -1858,20 +1864,20 @@
             {
                 "code": "486",
                 "name": "Bus RATP 486",
-                "directions": "Marche de Juvisy / Porte de l'Essonne",
-                "id": "335081"
+                "directions": "Juvisy RER / Porte de l'Essonne",
+                "id": "464659"
             },
             {
                 "code": "487",
                 "name": "Bus RATP 487",
-                "directions": "Marche de Juvisy / Athis-Mons - Porte de l'Essonne",
-                "id": "335083"
+                "directions": "Juvisy RER / Athis-Mons - Porte de l'Essonne",
+                "id": "464661"
             },
             {
                 "code": "488",
                 "name": "Bus RATP 488",
-                "directions": "Marche de Juvisy / Place Henri Deudon",
-                "id": "335084"
+                "directions": "Juvisy RER / Place Henri Deudon",
+                "id": "464663"
             },
             {
                 "code": "492",
@@ -1888,14 +1894,14 @@
             {
                 "code": "520",
                 "name": "Bus RATP 520",
-                "directions": "Les Hauts de Bry / Bry-Sur-Marne RER",
-                "id": "188351"
+                "directions": "Les Hauts de Bry / les Boullereaux",
+                "id": "480115"
             },
             {
                 "code": "528",
                 "name": "Bus RATP 528",
-                "directions": "Gare Saint-Lazare / Porte de Clichy",
-                "id": "378411"
+                "directions": "Gare Saint-Lazare - Rome / Porte de Clichy",
+                "id": "452480"
             },
             {
                 "code": "545",
@@ -1910,12 +1916,6 @@
                 "id": "209772"
             },
             {
-                "code": "563",
-                "name": "Bus RATP 563",
-                "directions": "Suresnes de Gaulle / Place de la Boule - Gambetta",
-                "id": "214215"
-            },
-            {
                 "code": "564",
                 "name": "Bus RATP 564",
                 "directions": "College la Malmaison / College la Malmaison",
@@ -1928,6 +1928,12 @@
                 "id": "209779"
             },
             {
+                "code": "566",
+                "name": "Bus RATP 566",
+                "directions": "Rue de l'Industrie / Eglise de Colombes",
+                "id": "412080"
+            },
+            {
                 "code": "595",
                 "name": "Bus RATP 595",
                 "directions": "Robinson RER / la Boursidiere",
@@ -1937,7 +1943,7 @@
                 "code": "As-Sure",
                 "name": "Bus RATP As-Sure",
                 "directions": "General de Gaulle / (Circuits General de Gaulle)",
-                "id": "377811"
+                "id": "480430"
             },
             {
                 "code": "Audonie",
@@ -1976,34 +1982,16 @@
                 "id": "203643"
             },
             {
-                "code": "Colomb",
-                "name": "Bus RATP Colomb",
-                "directions": "Rue de l'Industrie / Eglise de Colombes",
-                "id": "412080"
-            },
-            {
                 "code": "Eolien",
                 "name": "Bus RATP Eolien",
                 "directions": "Cimetiere Nouveau / Conservatoire-Pressense",
-                "id": "338610"
+                "id": "476762"
             },
             {
                 "code": "Hironde",
                 "name": "Bus RATP Hironde",
                 "directions": "Pierre Brossolette-Gabriel Peri / Cimetiere Intercommunal",
                 "id": "191767"
-            },
-            {
-                "code": "Monast",
-                "name": "Bus RATP Monast",
-                "directions": "Monastere / Sevres-Ville d'Avray - Gare Sncf Rd",
-                "id": "306410"
-            },
-            {
-                "code": "Montmar",
-                "name": "Bus RATP Montmar",
-                "directions": "Pigalle / Mairie du 18e - Jules Joffrin",
-                "id": "195286"
             },
             {
                 "code": "avette",
@@ -2020,8 +2008,8 @@
             {
                 "code": "Orlybus",
                 "name": "Bus RATP Orlybus",
-                "directions": "Orly 4 / Denfert-Rochereau-Metro-RER",
-                "id": "195560"
+                "directions": "Aeroport d'Orly 4 / Denfert-Rochereau-Metro-RER",
+                "id": "447293"
             },
             {
                 "code": "Pc",
@@ -2038,14 +2026,44 @@
             {
                 "code": "Port",
                 "name": "Bus RATP Port",
-                "directions": "Circulaire / Gare du Stade",
-                "id": "345529"
+                "directions": "Asnieres - les Courtilles / Asnieres - les Courtilles",
+                "id": "446935"
             },
             {
                 "code": "Ptitbus",
                 "name": "Bus RATP Ptitbus",
                 "directions": "Marche - Mairie / Marche - Mairie",
                 "id": "415398"
+            },
+            {
+                "code": "Reraboi",
+                "name": "Bus RATP Reraboi",
+                "directions": "Boissy Saint Leger / Nation",
+                "id": "481190"
+            },
+            {
+                "code": "Reramlv",
+                "name": "Bus RATP Reramlv",
+                "directions": "Nation / Marne la Vallee Chessy",
+                "id": "481187"
+            },
+            {
+                "code": "Rerasgl",
+                "name": "Bus RATP Rerasgl",
+                "directions": "Charles de Gaulle Etoile / Saint Germain en Laye",
+                "id": "481191"
+            },
+            {
+                "code": "Rerbrob",
+                "name": "Bus RATP Rerbrob",
+                "directions": "Robinson RER / Denfert Rochereau",
+                "id": "481189"
+            },
+            {
+                "code": "Rerbsrc",
+                "name": "Bus RATP Rerbsrc",
+                "directions": "Saint-Remy-Les-Chevreuse RER / Denfert Rochereau",
+                "id": "481192"
             },
             {
                 "code": "River",
@@ -2108,12 +2126,6 @@
                 "id": "194216"
             },
             {
-                "code": "V1",
-                "name": "Bus RATP V1",
-                "directions": "Mairie de l'Hay-Les-Roses / Leclerc - Thomas",
-                "id": "224593"
-            },
-            {
                 "code": "V2",
                 "name": "Bus RATP V2",
                 "directions": "Domaine Cherioux / Pasteur",
@@ -2152,13 +2164,7 @@
             {
                 "code": "20",
                 "name": "Bus RATP 20",
-                "directions": "Louison Bobet / Porte des Lilas",
-                "id": "438032"
-            },
-            {
-                "code": "20",
-                "name": "Bus RATP 20",
-                "directions": "Louison Bobet / Porte des Lilas",
+                "directions": "Porte des Lilas / Louison Bobet",
                 "id": "438033"
             },
             {
@@ -2166,36 +2172,6 @@
                 "name": "Bus RATP 21",
                 "directions": "Stade Charlety - Porte de Gentilly / Porte de Saint-Ouen -Hopital Bichat",
                 "id": "437448"
-            },
-            {
-                "code": "21",
-                "name": "Bus RATP 21",
-                "directions": "Stade Charlety - Porte de Gentilly / Porte de Saint-Ouen -Hopital Bichat",
-                "id": "437449"
-            },
-            {
-                "code": "22",
-                "name": "Bus RATP 22",
-                "directions": "Porte de Saint-Cloud / Gare Saint-Lazare",
-                "id": "436177"
-            },
-            {
-                "code": "24",
-                "name": "Bus RATP 24",
-                "directions": "Ecole Veterinaire de Maisons-Alfort / Gare Saint Lazare",
-                "id": "193497"
-            },
-            {
-                "code": "24",
-                "name": "Bus RATP 24",
-                "directions": "Maubert - Mutualite",
-                "id": "193499"
-            },
-            {
-                "code": "24",
-                "name": "Bus RATP 24",
-                "directions": "(Ecole Veterinaire) / Pantheon",
-                "id": "438035"
             },
             {
                 "code": "24",
@@ -2210,46 +2186,10 @@
                 "id": "436159"
             },
             {
-                "code": "26",
-                "name": "Bus RATP 26",
-                "directions": "Nation - Trone / Gare Saint-Lazare",
-                "id": "436163"
-            },
-            {
-                "code": "28",
-                "name": "Bus RATP 28",
-                "directions": "Ecole Militaire / Porte d'Orleans",
-                "id": "196136"
-            },
-            {
-                "code": "28",
-                "name": "Bus RATP 28",
-                "directions": "Porte d'Orleans",
-                "id": "196137"
-            },
-            {
-                "code": "28",
-                "name": "Bus RATP 28",
-                "directions": "Gare Saint-Lazare / Gare Montparnasse",
-                "id": "438042"
-            },
-            {
                 "code": "29",
                 "name": "Bus RATP 29",
-                "directions": "Porte de Montempoivre / Gare Saint-Lazare",
-                "id": "436207"
-            },
-            {
-                "code": "29",
-                "name": "Bus RATP 29",
-                "directions": "(Gare Saint-Lazare) / Place des Vosges",
+                "directions": "Place des Vosges / Gare Saint-Lazare",
                 "id": "436224"
-            },
-            {
-                "code": "30",
-                "name": "Bus RATP 30",
-                "directions": "(Hopital Europeen G. Pompidou) / Pigalle",
-                "id": "436890"
             },
             {
                 "code": "30",
@@ -2258,112 +2198,34 @@
                 "id": "436891"
             },
             {
-                "code": "32",
-                "name": "Bus RATP 32",
-                "directions": "Porte d'Auteuil / Gare de l'Est",
-                "id": "194743"
-            },
-            {
-                "code": "35",
-                "name": "Bus RATP 35",
-                "directions": "Gare de l'Est / Mairie d'Aubervilliers",
-                "id": "438050"
-            },
-            {
                 "code": "38",
                 "name": "Bus RATP 38",
-                "directions": "Porte d'Orleans / Gare du Nord",
-                "id": "196133"
-            },
-            {
-                "code": "38",
-                "name": "Bus RATP 38",
-                "directions": "(Gare du Nord - Porte d'Orleans) / Chatelet",
-                "id": "244350"
-            },
-            {
-                "code": "38",
-                "name": "Bus RATP 38",
-                "directions": "(Porte d'Orleans) / Porte de la Chapelle",
+                "directions": "Porte d'Orleans / Porte de la Chapelle",
                 "id": "438919"
             },
             {
-                "code": "38",
-                "name": "Bus RATP 38",
-                "directions": "Porte d'Orleans / (Porte de la Chapelle)",
-                "id": "438920"
-            },
-            {
-                "code": "39",
-                "name": "Bus RATP 39",
-                "directions": "Freres Voisin / Gare du Nord",
-                "id": "198399"
-            },
-            {
-                "code": "42",
-                "name": "Bus RATP 42",
-                "directions": "Hopital Europeen Georges Pompidou / Gare du Nord",
-                "id": "198615"
+                "code": "43",
+                "name": "Bus RATP 43",
+                "directions": "Bagatelle / Gare du Nord",
+                "id": "195287"
             },
             {
                 "code": "47",
                 "name": "Bus RATP 47",
-                "directions": "Le Kremlin-Bicetre-Metro / Gare de l'Est",
-                "id": "264618"
-            },
-            {
-                "code": "47",
-                "name": "Bus RATP 47",
-                "directions": "Fort du Kremlin-Bicetre / le Kremlin-Bicetre-Metro",
-                "id": "264619"
-            },
-            {
-                "code": "47",
-                "name": "Bus RATP 47",
-                "directions": "Fort du Kremlin-Bicetre / Place d'Italie",
-                "id": "264620"
-            },
-            {
-                "code": "47",
-                "name": "Bus RATP 47",
-                "directions": "(Chatelet) / le Kremlin-Bicetre-Metro",
+                "directions": "Chatelet / le Kremlin-Bicetre-Metro",
                 "id": "438926"
             },
             {
                 "code": "47",
                 "name": "Bus RATP 47",
-                "directions": "Fort du Kremlin-Bicetre / Chatelet",
-                "id": "438927"
-            },
-            {
-                "code": "47",
-                "name": "Bus RATP 47",
-                "directions": "Le Kremlin-Bicetre-Metro / (Gare de l'Est)",
+                "directions": "Le Kremlin-Bicetre-Metro / Gare de l'Est",
                 "id": "438928"
             },
             {
                 "code": "48",
                 "name": "Bus RATP 48",
-                "directions": "(Gare du Nord) / Porte des Lilas",
-                "id": "436171"
-            },
-            {
-                "code": "48",
-                "name": "Bus RATP 48",
-                "directions": "Gare du Nord / (Porte des Lilas)",
+                "directions": "Gare du Nord / Porte des Lilas",
                 "id": "436172"
-            },
-            {
-                "code": "54",
-                "name": "Bus RATP 54",
-                "directions": "Gabriel Peri-Metro / Porte d'Aubervilliers",
-                "id": "306452"
-            },
-            {
-                "code": "54",
-                "name": "Bus RATP 54",
-                "directions": "Gabriel Peri-Metro / (Porte d'Aubervilliers - Asnieres)",
-                "id": "401166"
             },
             {
                 "code": "54",
@@ -2372,46 +2234,16 @@
                 "id": "438924"
             },
             {
-                "code": "56",
-                "name": "Bus RATP 56",
-                "directions": "Chateau de Vincennes / Porte de Clignancourt",
-                "id": "436169"
-            },
-            {
-                "code": "58",
-                "name": "Bus RATP 58",
-                "directions": "Chatelet / Vanves-Lycee Michelet",
-                "id": "178474"
-            },
-            {
-                "code": "60",
-                "name": "Bus RATP 60",
-                "directions": "Porte de Montmartre / Gambetta - Japon",
-                "id": "438034"
-            },
-            {
-                "code": "61",
-                "name": "Bus RATP 61",
-                "directions": "Eglise de Pantin / Gare d'Austerlitz",
-                "id": "191356"
+                "code": "63",
+                "name": "Bus RATP 63",
+                "directions": "Porte de la Muette / Gare de Lyon",
+                "id": "461303"
             },
             {
                 "code": "63",
                 "name": "Bus RATP 63",
-                "directions": "Porte de la Muette / Gare de Lyon (A Supp)",
-                "id": "196150"
-            },
-            {
-                "code": "64",
-                "name": "Bus RATP 64",
-                "directions": "Place d'Italie / Gambetta - Mairie du 20e",
-                "id": "196151"
-            },
-            {
-                "code": "64",
-                "name": "Bus RATP 64",
-                "directions": "Place d'Italie / Gambetta - Marie du 20e",
-                "id": "196152"
+                "directions": "Jardin d'Acclimatation / Gare de Lyon",
+                "id": "461304"
             },
             {
                 "code": "66",
@@ -2420,40 +2252,10 @@
                 "id": "264612"
             },
             {
-                "code": "67",
-                "name": "Bus RATP 67",
-                "directions": "Stade Charlety-Porte de Gentilly / Pigalle",
-                "id": "288758"
-            },
-            {
-                "code": "67",
-                "name": "Bus RATP 67",
-                "directions": "Stade Charlety - Porte de Gentilly / Hotel de Ville de Paris_4e",
-                "id": "288759"
-            },
-            {
-                "code": "67",
-                "name": "Bus RATP 67",
-                "directions": "Stade Charlety - Porte de Gentilly / Palais Royal - Musee du Louvre",
-                "id": "437451"
-            },
-            {
                 "code": "69",
                 "name": "Bus RATP 69",
-                "directions": "(Champ de Mars) / Gambetta - Mairie du 20e",
+                "directions": "Champ de Mars / Gambetta - Mairie du 20e",
                 "id": "441409"
-            },
-            {
-                "code": "69",
-                "name": "Bus RATP 69",
-                "directions": "Champ de Mars / (Gambetta)",
-                "id": "441410"
-            },
-            {
-                "code": "72",
-                "name": "Bus RATP 72",
-                "directions": "Gare de Lyon - Maison de la Ratp / Parc de Saint-Cloud",
-                "id": "436175"
             },
             {
                 "code": "72",
@@ -2462,148 +2264,58 @@
                 "id": "436176"
             },
             {
-                "code": "74",
-                "name": "Bus RATP 74",
-                "directions": "Clichy - Berges de Seine / Chatelet",
-                "id": "436181"
-            },
-            {
-                "code": "75",
-                "name": "Bus RATP 75",
-                "directions": "Porte de Pantin / Pont Neuf",
-                "id": "204672"
-            },
-            {
-                "code": "76",
-                "name": "Bus RATP 76",
-                "directions": "Louise Michel / Chatelet",
-                "id": "437450"
-            },
-            {
                 "code": "80",
                 "name": "Bus RATP 80",
-                "directions": "(Mairie du 18e-Jules Joffrin) / Porte de Versailles",
-                "id": "438047"
-            },
-            {
-                "code": "80",
-                "name": "Bus RATP 80",
-                "directions": "Mairie du 18e - Jules Joffrin / (Porte de Versailles)",
+                "directions": "Mairie du 18e - Jules Joffrin / Porte de Versailles",
                 "id": "438048"
-            },
-            {
-                "code": "83",
-                "name": "Bus RATP 83",
-                "directions": "Porte d'Ivry / Invalides",
-                "id": "438045"
-            },
-            {
-                "code": "85",
-                "name": "Bus RATP 85",
-                "directions": "Saint-Ouen - les Docks / Hotel de Ville de Paris",
-                "id": "303484"
             },
             {
                 "code": "85",
                 "name": "Bus RATP 85",
                 "directions": "Saint-Ouen - les Docks / Porte de Clignancourt",
-                "id": "396880"
+                "id": "468708"
             },
             {
                 "code": "85",
                 "name": "Bus RATP 85",
                 "directions": "Saint-Ouen - les Docks / Chatelet",
-                "id": "436179"
+                "id": "468710"
+            },
+            {
+                "code": "85",
+                "name": "Bus RATP 85",
+                "directions": "Saint-Ouen - les Docks / Chatelet",
+                "id": "468711"
             },
             {
                 "code": "86",
                 "name": "Bus RATP 86",
-                "directions": "Saint-Mande - Demi Lune / Saint-Germain-Des-Pres",
-                "id": "195190"
-            },
-            {
-                "code": "86",
-                "name": "Bus RATP 86",
-                "directions": "(Champ de Mars) / Saint-Germain-Des-Pres",
+                "directions": "Saint-Germain-Des-Pres / Champ de Mars",
                 "id": "438043"
             },
             {
                 "code": "87",
                 "name": "Bus RATP 87",
-                "directions": "(Porte de Reuilly) / Invalides",
+                "directions": "Porte de Reuilly / Invalides",
                 "id": "440088"
             },
             {
                 "code": "87",
                 "name": "Bus RATP 87",
-                "directions": "Porte de Reuilly / (Invalides)",
+                "directions": "Porte de Reuilly / Invalides",
                 "id": "440089"
             },
             {
-                "code": "87",
-                "name": "Bus RATP 87",
-                "directions": "Porte de Reuilly / Jussieu - Mineraux",
-                "id": "440091"
-            },
-            {
-                "code": "88",
-                "name": "Bus RATP 88",
-                "directions": "Hopital Europeen Georges Pompidou / Montsouris-Tombe Issoire",
-                "id": "196128"
-            },
-            {
                 "code": "91",
                 "name": "Bus RATP 91",
-                "directions": "(Gare du Nord) / Montparnasse 2 - Gare Tgv",
-                "id": "438037"
-            },
-            {
-                "code": "91",
-                "name": "Bus RATP 91",
-                "directions": "Gare du Nord / (Montparnasse 2-Gare Tgv)",
+                "directions": "Gare du Nord / Montparnasse 2 - Gare Tgv",
                 "id": "438038"
-            },
-            {
-                "code": "92",
-                "name": "Bus RATP 92",
-                "directions": "Porte de Champerret / Gare Montparnasse",
-                "id": "198712"
-            },
-            {
-                "code": "92",
-                "name": "Bus RATP 92",
-                "directions": "(Montp-Porte de Champerret) / Gare Montparnasse",
-                "id": "248736"
             },
             {
                 "code": "92",
                 "name": "Bus RATP 92",
                 "directions": "(Gare Montparnasse) / Porte d'Orleans",
                 "id": "438921"
-            },
-            {
-                "code": "93",
-                "name": "Bus RATP 93",
-                "directions": "Suresnes-De Gaulle / Invalides",
-                "id": "438122"
-            },
-            {
-                "code": "94",
-                "name": "Bus RATP 94",
-                "directions": "Louison Bobet / Gare Montparnasse",
-                "id": "209015"
-            },
-            {
-                "code": "95",
-                "name": "Bus RATP 95",
-                "directions": "Porte de Montmartre / Porte de Vanves",
-                "id": "204666"
-            },
-            {
-                "code": "96",
-                "name": "Bus RATP 96",
-                "directions": "Porte des Lilas-Metro / Gare Montparnasse",
-                "id": "436173"
             },
             {
                 "code": "103",
@@ -2732,12 +2444,6 @@
                 "id": "191920"
             },
             {
-                "code": "120",
-                "name": "Bus RATP 120",
-                "directions": "Bry-Sur-Marne RER / Nogent Sur Marne-RER",
-                "id": "192999"
-            },
-            {
                 "code": "121",
                 "name": "Bus RATP 121",
                 "directions": "Chateau de Villemomble / Mairie de Montreuil",
@@ -2758,20 +2464,8 @@
             {
                 "code": "131",
                 "name": "Bus RATP 131",
-                "directions": "Mairie de Chevilly-Larue - Theatre / Porte d'Italie-Metro",
-                "id": "324448"
-            },
-            {
-                "code": "131",
-                "name": "Bus RATP 131",
                 "directions": "Ambroise Croizat / Porte d'Italie-Metro",
                 "id": "438933"
-            },
-            {
-                "code": "131",
-                "name": "Bus RATP 131",
-                "directions": "Rungis - la Fraternelle RER / Porte d'Italie-Metro",
-                "id": "438934"
             },
             {
                 "code": "131",
@@ -2854,13 +2548,7 @@
             {
                 "code": "146",
                 "name": "Bus RATP 146",
-                "directions": "Les Bosquets / le Bourget RER",
-                "id": "441050"
-            },
-            {
-                "code": "146",
-                "name": "Bus RATP 146",
-                "directions": "Le Bourget RER / Chanzy",
+                "directions": "Chanzy / le Bourget RER",
                 "id": "441052"
             },
             {
@@ -2908,7 +2596,7 @@
             {
                 "code": "167",
                 "name": "Bus RATP 167",
-                "directions": "Pont de Levallois - Becon / (Colombes - Pont de Levallois)",
+                "directions": "Colombes - Pont de Levallois / Piscine - Patinoire",
                 "id": "412082"
             },
             {
@@ -2918,21 +2606,9 @@
                 "id": "365085"
             },
             {
-                "code": "169",
-                "name": "Bus RATP 169",
-                "directions": "Pont de Sevres / Hopital Europeen Georges Pompidou",
-                "id": "437443"
-            },
-            {
-                "code": "169",
-                "name": "Bus RATP 169",
-                "directions": "Pont de Sevres / Hopital Europeen G.P.",
-                "id": "437444"
-            },
-            {
                 "code": "170",
                 "name": "Bus RATP 170",
-                "directions": "(Porte des Lilas - Saint-Denis RER) / Porte des Lilas-Metro",
+                "directions": "Gare de Saint-Denis RER / Porte des Lilas-Metro",
                 "id": "208986"
             },
             {
@@ -2948,28 +2624,16 @@
                 "id": "208980"
             },
             {
+                "code": "175",
+                "name": "Bus RATP 175",
+                "directions": "Asnieres - Bords de Seine / Pont de Puteaux",
+                "id": "463864"
+            },
+            {
                 "code": "179",
                 "name": "Bus RATP 179",
-                "directions": "Robinson RER / (Pont de Sevres - Robinson RER)",
+                "directions": "Robinson RER / Pont de Sevres",
                 "id": "270285"
-            },
-            {
-                "code": "180",
-                "name": "Bus RATP 180",
-                "directions": "Villejuif - Louis Aragon / Charenton-Ecoles",
-                "id": "422295"
-            },
-            {
-                "code": "180",
-                "name": "Bus RATP 180",
-                "directions": "Villejuif - Louis Aragon / Charenton-Ecoles",
-                "id": "422296"
-            },
-            {
-                "code": "180",
-                "name": "Bus RATP 180",
-                "directions": "Charenton-Ecoles / Villejuif - Louis Aragon",
-                "id": "422298"
             },
             {
                 "code": "183",
@@ -2986,13 +2650,13 @@
             {
                 "code": "184",
                 "name": "Bus RATP 184",
-                "directions": "(Fresnes-Pasteur) / Porte d'Italie - Helene Boucher",
+                "directions": "Fresnes-Pasteur / Porte d'Italie - Helene Boucher",
                 "id": "215165"
             },
             {
                 "code": "184",
                 "name": "Bus RATP 184",
-                "directions": "Carrefour des Poulets / (Fresnes-Pasteur)",
+                "directions": "Carrefour des Poulets / Porte d'Italie - Helene Boucher",
                 "id": "346942"
             },
             {
@@ -3010,7 +2674,7 @@
             {
                 "code": "192",
                 "name": "Bus RATP 192",
-                "directions": "Le Cor de Chasse - la Belle Epine / (Robinson RER - Min Rungis)",
+                "directions": "Le Cor de Chasse - la Belle Epine / Robinson RER",
                 "id": "229941"
             },
             {
@@ -3030,6 +2694,12 @@
                 "name": "Bus RATP 194",
                 "directions": "(Lycee de Chatenay-Malabry) / Porte d'Orleans",
                 "id": "283854"
+            },
+            {
+                "code": "194",
+                "name": "Bus RATP 194",
+                "directions": "Mairie de Fontenay-Aux-Roses / d'Estienne d'Orves",
+                "id": "475763"
             },
             {
                 "code": "196",
@@ -3062,22 +2732,10 @@
                 "id": "195728"
             },
             {
-                "code": "201",
-                "name": "Bus RATP 201",
-                "directions": "Champigny-Diderot la Plage / Joinville le Pont-RER",
-                "id": "188527"
-            },
-            {
                 "code": "203",
                 "name": "Bus RATP 203",
                 "directions": "Ile de France / Neuilly-Plaisance RER",
                 "id": "191787"
-            },
-            {
-                "code": "206",
-                "name": "Bus RATP 206",
-                "directions": "Place Verdun",
-                "id": "242381"
             },
             {
                 "code": "207",
@@ -3118,26 +2776,14 @@
             {
                 "code": "210",
                 "name": "Bus RATP 210",
-                "directions": "Bry-Sur-Marne RER / Chateau de Vincennes",
-                "id": "191925"
+                "directions": "Ledru-Rollin - General de Gaulle / (Villiers Sur Marne RER)",
+                "id": "480111"
             },
             {
                 "code": "210",
                 "name": "Bus RATP 210",
-                "directions": "Bry-Sur-Marne RER / Chateau de Vincennes",
-                "id": "204424"
-            },
-            {
-                "code": "210",
-                "name": "Bus RATP 210",
-                "directions": "Villiers-Sur-Marne - le Plessis / Chateau de Vincennes",
-                "id": "209922"
-            },
-            {
-                "code": "210",
-                "name": "Bus RATP 210",
-                "directions": "Ledru-Rollin - General de Gaulle",
-                "id": "209923"
+                "directions": "(Villiers Sur Marne RER) / Ledru-Rollin - General de Gaulle",
+                "id": "480112"
             },
             {
                 "code": "211",
@@ -3158,15 +2804,9 @@
                 "id": "191756"
             },
             {
-                "code": "215",
-                "name": "Bus RATP 215",
-                "directions": "Vincennes RER-Republique / Porte de Montreuil",
-                "id": "204667"
-            },
-            {
                 "code": "216",
                 "name": "Bus RATP 216",
-                "directions": "(Min Rungis) / Marche International de Rungis",
+                "directions": "Denfert-Rochereau-Metro-RER / Marche International de Rungis",
                 "id": "229296"
             },
             {
@@ -3184,13 +2824,13 @@
             {
                 "code": "234",
                 "name": "Bus RATP 234",
-                "directions": "Mairie de Livry-Gargan / Robert Shuman (Descente)",
+                "directions": "Mairie de Livry-Gargan / Fort d'Aubervilliers-Metro",
                 "id": "271713"
             },
             {
                 "code": "234",
                 "name": "Bus RATP 234",
-                "directions": "(Mairie de Livry-Gargan) / Fort d'Aubervilliers-Metro",
+                "directions": "Mairie de Livry-Gargan / Fort d'Aubervilliers-Metro",
                 "id": "372856"
             },
             {
@@ -3220,19 +2860,7 @@
             {
                 "code": "249",
                 "name": "Bus RATP 249",
-                "directions": "Dugny - Centre Ville / Porte des Lilas",
-                "id": "361328"
-            },
-            {
-                "code": "249",
-                "name": "Bus RATP 249",
-                "directions": "(Dugny-Centre Ville) / Porte des Lilas",
-                "id": "361329"
-            },
-            {
-                "code": "249",
-                "name": "Bus RATP 249",
-                "directions": "(Dugny-Place Valerie Andre) / Porte des Lilas",
+                "directions": "Dugny-Place Valerie Andre / Porte des Lilas",
                 "id": "441361"
             },
             {
@@ -3266,22 +2894,22 @@
                 "id": "252606"
             },
             {
-                "code": "268",
-                "name": "Bus RATP 268",
-                "directions": "Guynemer / Villiers le Bel - RER",
-                "id": "365089"
-            },
-            {
                 "code": "269",
                 "name": "Bus RATP 269",
-                "directions": "Hotel de Ville d'Attainville / Garges-Sarcelles RER",
-                "id": "365101"
+                "directions": "Ru de Vaux / (Gare de Garges-Sarcelles RER)",
+                "id": "454919"
             },
             {
                 "code": "270",
                 "name": "Bus RATP 270",
                 "directions": "Place du 19 Mars 1962 / Garges - Sarcelles RER",
                 "id": "370405"
+            },
+            {
+                "code": "270",
+                "name": "Bus RATP 270",
+                "directions": "Villiers le Bel - Arnouville RER / Forum des Cholettes",
+                "id": "469141"
             },
             {
                 "code": "272",
@@ -3304,20 +2932,8 @@
             {
                 "code": "285",
                 "name": "Bus RATP 285",
-                "directions": "(Athis-Mons - Porte de l'Essonne) / Porte de l'Essonne",
-                "id": "335079"
-            },
-            {
-                "code": "285",
-                "name": "Bus RATP 285",
-                "directions": "Marche de Juvisy / Porte de l'Essonne",
-                "id": "335080"
-            },
-            {
-                "code": "285",
-                "name": "Bus RATP 285",
-                "directions": "Porte de l'Essonne / (Porte de l'Essonne - Juvisy RER)",
-                "id": "396879"
+                "directions": "(Juvisy RER) / Porte de l'Essonne",
+                "id": "468702"
             },
             {
                 "code": "286",
@@ -3346,19 +2962,19 @@
             {
                 "code": "292",
                 "name": "Bus RATP 292",
-                "directions": "(Porte de l'Essonne - Savigny) / Porte de l'Essonne",
+                "directions": "Savigny-Sur-Orge - Zac les Gatines / Athis-Mons - Porte de l'Essonne",
                 "id": "230153"
             },
             {
                 "code": "292",
                 "name": "Bus RATP 292",
-                "directions": "(Athis-Mons - Porte de l'Essonne) / Porte de l'Essonne",
+                "directions": "Savigny-Sur-Orge - Zac les Gatines / Athis-Mons - Porte de l'Essonne",
                 "id": "230154"
             },
             {
                 "code": "292",
                 "name": "Bus RATP 292",
-                "directions": "(Savigny - Zac les Gatines) / Porte de l'Essonne",
+                "directions": "Savigny-Sur-Orge - Zac les Gatines / Athis-Mons - Porte de l'Essonne",
                 "id": "230155"
             },
             {
@@ -3368,27 +2984,15 @@
                 "id": "318822"
             },
             {
-                "code": "297",
-                "name": "Bus RATP 297",
-                "directions": "Place Charles Steber / (Porte d'Orleans - Longjumeau)",
-                "id": "257780"
-            },
-            {
-                "code": "297",
-                "name": "Bus RATP 297",
-                "directions": "(Porte d'Orleans - Longjumeau) / Antony RER",
-                "id": "257782"
-            },
-            {
                 "code": "299",
                 "name": "Bus RATP 299",
-                "directions": "Square - Condorcet / Place Charles Steber",
+                "directions": "Square - Condorcet / Porte d'Orleans - Ernest Reyer",
                 "id": "322565"
             },
             {
                 "code": "299",
                 "name": "Bus RATP 299",
-                "directions": "(Porte d'Orleans) / Cimetiere de Chilly-Mazarin",
+                "directions": "Cimetiere de Chilly-Mazarin / Porte d'Orleans - Ernest Reyer",
                 "id": "322566"
             },
             {
@@ -3454,18 +3058,6 @@
             {
                 "code": "325",
                 "name": "Bus RATP 325",
-                "directions": "Vaillant-Couturier-Lenine / Bibliotheque Francois Mitterrand",
-                "id": "420348"
-            },
-            {
-                "code": "325",
-                "name": "Bus RATP 325",
-                "directions": "Chateau de Vincennes / Quai de la Gare",
-                "id": "436160"
-            },
-            {
-                "code": "325",
-                "name": "Bus RATP 325",
                 "directions": "Chateau de Vincennes / Quai de la Gare",
                 "id": "436161"
             },
@@ -3490,30 +3082,6 @@
             {
                 "code": "350",
                 "name": "Bus RATP 350",
-                "directions": "Roissypole / Gare de l'Est",
-                "id": "191020"
-            },
-            {
-                "code": "350",
-                "name": "Bus RATP 350",
-                "directions": "Roissypole RER / Gare de l'Est",
-                "id": "191021"
-            },
-            {
-                "code": "350",
-                "name": "Bus RATP 350",
-                "directions": "Roissypole / Gare de l'Est",
-                "id": "191022"
-            },
-            {
-                "code": "350",
-                "name": "Bus RATP 350",
-                "directions": "Roissypole / Gare de l'Est",
-                "id": "191023"
-            },
-            {
-                "code": "350",
-                "name": "Bus RATP 350",
                 "directions": "Roissypole - Gare - RER / Porte de la Chapelle",
                 "id": "436164"
             },
@@ -3522,12 +3090,6 @@
                 "name": "Bus RATP 350",
                 "directions": "Roissypole - Gare - RER / Porte de la Chapelle",
                 "id": "436165"
-            },
-            {
-                "code": "350",
-                "name": "Bus RATP 350",
-                "directions": "Roissypole - Gare - RER / Porte de la Chapelle",
-                "id": "436166"
             },
             {
                 "code": "350",
@@ -3592,7 +3154,7 @@
             {
                 "code": "370",
                 "name": "Bus RATP 370",
-                "directions": "(Marche de Saint-Brice) / Villiers le Bel- Arnouville RER.",
+                "directions": "Villiers le Bel - Arnouville RER / Marche de Saint-Brice",
                 "id": "365098"
             },
             {
@@ -3604,19 +3166,13 @@
             {
                 "code": "385",
                 "name": "Bus RATP 385",
-                "directions": "Marche de Juvisy / Pyramide de Juvisy",
-                "id": "331760"
-            },
-            {
-                "code": "385",
-                "name": "Bus RATP 385",
-                "directions": "Marche de Juvisy / Toulouse-Lautrec",
-                "id": "331761"
+                "directions": "(Juvisy RER) / Toulouse-Lautrec",
+                "id": "464658"
             },
             {
                 "code": "388",
                 "name": "Bus RATP 388",
-                "directions": "Bourg-La-Reine RER / (Porte d'Orleans)",
+                "directions": "Bourg-La-Reine RER / Porte d'Orleans",
                 "id": "419057"
             },
             {
@@ -3652,14 +3208,14 @@
             {
                 "code": "487",
                 "name": "Bus RATP 487",
-                "directions": "Marche de Juvisy / Porte de l'Essonne",
-                "id": "335082"
+                "directions": "Juvisy RER / Porte de l'Essonne",
+                "id": "464660"
             },
             {
                 "code": "520",
                 "name": "Bus RATP 520",
-                "directions": "(Les Hauts de Bry) / Bry-Sur-Marne RER",
-                "id": "188352"
+                "directions": "(Les Boullereaux-Champigny RER) / Bry-Sur-Marne RER",
+                "id": "480114"
             },
             {
                 "code": "559a",
@@ -3724,26 +3280,38 @@
             {
                 "code": "As-Sure",
                 "name": "Bus RATP As-Sure",
-                "directions": "Place de Stalingrad / (Circuits General de Gaulle)",
-                "id": "377812"
-            },
-            {
-                "code": "As-Sure",
-                "name": "Bus RATP As-Sure",
-                "directions": "General de Gaulle / Circuit Republique",
-                "id": "429836"
+                "directions": "Place de Stalingrad / (Circuit Marche)",
+                "id": "480431"
             },
             {
                 "code": "Eolien",
                 "name": "Bus RATP Eolien",
-                "directions": "(Ile de Puteaux) / Conservatoire-Pressense",
-                "id": "338609"
+                "directions": "Cimetiere Nouveau / Conservatoire-Pressense",
+                "id": "476758"
             },
             {
                 "code": "Eolien",
                 "name": "Bus RATP Eolien",
-                "directions": "Cimetiere Nouveau / Ile de Puteaux",
-                "id": "369197"
+                "directions": "Cimetiere Nouveau / Ecole des Sports - Ile de Puteaux",
+                "id": "476759"
+            },
+            {
+                "code": "Eolien",
+                "name": "Bus RATP Eolien",
+                "directions": "Cimetiere Nouveau / Ecole des Sports - Ile de Puteaux",
+                "id": "476760"
+            },
+            {
+                "code": "Eolien",
+                "name": "Bus RATP Eolien",
+                "directions": "Cimetiere Nouveau / Conservatoire-Pressense",
+                "id": "476761"
+            },
+            {
+                "code": "Eolien",
+                "name": "Bus RATP Eolien",
+                "directions": "Cimetiere Nouveau / Ecole des Sports - Ile de Puteaux",
+                "id": "476763"
             },
             {
                 "code": "Hironde",
@@ -3784,14 +3352,20 @@
             {
                 "code": "Port",
                 "name": "Bus RATP Port",
-                "directions": "Circulaire / Gare du Stade",
-                "id": "345528"
+                "directions": "Asnieres - les Courtilles / Asnieres - les Courtilles",
+                "id": "446936"
             },
             {
                 "code": "Port",
                 "name": "Bus RATP Port",
-                "directions": "Circulaire / Asnieres - les Courtilles",
-                "id": "419562"
+                "directions": "Gare du Stade / Gare du Stade",
+                "id": "446937"
+            },
+            {
+                "code": "Rerbrob",
+                "name": "Bus RATP Rerbrob",
+                "directions": "Robinson RER / Bourg-La-Reine RER",
+                "id": "482952"
             },
             {
                 "code": "ub",
@@ -3912,8 +3486,8 @@
             {
                 "code": "22",
                 "name": "Noctilien N22",
-                "directions": "Marche de Juvisy / Chatelet",
-                "id": "335078"
+                "directions": "Juvisy-RER / Chatelet",
+                "id": "468703"
             },
             {
                 "code": "23",
@@ -3954,8 +3528,8 @@
             {
                 "code": "35",
                 "name": "Noctilien N35",
-                "directions": "Gare de Lyon - Diderot / Nogent-Le-Perreux RER",
-                "id": "210203"
+                "directions": "Gare de Lyon - Diderot / Villiers-Sur-Marne - le Plessis-RER",
+                "id": "455609"
             },
             {
                 "code": "41",
@@ -4026,8 +3600,8 @@
             {
                 "code": "66",
                 "name": "Noctilien N66",
-                "directions": "Robert Wagner / Gare Montparnasse",
-                "id": "270276"
+                "directions": "Gare de Chaville-Rive-Droite / Gare Montparnasse",
+                "id": "455608"
             },
             {
                 "code": "71",
@@ -4062,8 +3636,8 @@
             {
                 "code": "22",
                 "name": "Noctilien N22",
-                "directions": "Marche de Juvisy / Gare de Lyon",
-                "id": "390221"
+                "directions": "Juvisy-RER / Gare de Lyon",
+                "id": "468705"
             },
             {
                 "code": "23",
@@ -4135,7 +3709,7 @@
     },
     "_metadata": {
         "call": "GET /lines",
-        "date": "2019-04-14T23:11:32+02:00",
+        "date": "2020-04-08T03:00:45+02:00",
         "version": 3
     }
 }

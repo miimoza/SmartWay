@@ -164,7 +164,7 @@ static station_vect init_vector(std::shared_ptr<Graph> g)
 static void correct_failure(station_vect v)
 {
     (void)v;
-    std::cout << "Correcting failure...\n";
+    std::cout << "[2/3] Correct Graph Errors\n";
 }
 
 std::shared_ptr<Graph> create_graph()
@@ -179,7 +179,8 @@ std::shared_ptr<Graph> create_graph()
     update_adj_lists(g, "bus");
 
     update_id(g->station_list);
-    init_dijkstra(g->station_list);
+    
+    //init_dijkstra(g->station_list);
 
     correct_failure(g->station_list);
 

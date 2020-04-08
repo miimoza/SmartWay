@@ -14,6 +14,7 @@ for t in metros rers tramways bus; do
         
         code="$(jq -r ".result.$t[$i].code" lines.json )"
         echo "t:$t i:$i code:$code"
-        wget -O "stations/$t/${code}.json" "${api}/stations/$t/$code" 1&>/dev/null
+        echo "--> wget ${api}/stations/$t/$code" 
+        wget -O "stations/$t/${code}.json" "${api}/stations/$t/$code" 
     done
 done
