@@ -12,7 +12,7 @@ using json = nlohmann::json;
 int main(int argc, char* argv[])
 {
     init_logs();
-    Log::display = false;
+    Log::display = true;
 
     std::cout << "Welcome to Smart Way\n\n";
     std::shared_ptr<Graph> G;
@@ -20,10 +20,13 @@ int main(int argc, char* argv[])
     std::cout << "[1/3] Creating Graph\n";
     G = create_graph();
 
-    while (true)
-        smartway(G);
+    //while (true)
+    smartway(G);
 
     if (argc >= 3 && !strcmp(argv[1], "-d"))
         build_dot_file(G, argv[2]);
+    
+    //smartway(G);
+    
     return 0;
 }

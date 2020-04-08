@@ -22,7 +22,7 @@ static void print_path(path_type path)
                   << "[" << line << "]\n"
                   << "  ||\n"
                   << "  \\/\n";
-        
+
         if (i == 0)
             std::cout << "\033[1;32m" << path[i]->get_name() << "\033[0m\n";
         else
@@ -162,6 +162,13 @@ void smartway(std::shared_ptr<Graph> G)
     Log l2("SmartWay", true);
     l << "Lets go find a itinerary\n";
 
+    std::string src_station = "reuilly+diderot";
+    std::string dst_station = "luxembourg";
+
+    auto src = get_station(G->station_list, src_station);
+    auto dst = get_station(G->station_list, dst_station);
+
+    /*
     std::string src_station;
     std::string dst_station;
 
@@ -184,6 +191,7 @@ void smartway(std::shared_ptr<Graph> G)
         l2 << dst_station << " not valid...\n";
         return;
     }
+    */
 
     get_path(G, src, dst);
 }

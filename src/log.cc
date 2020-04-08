@@ -3,7 +3,7 @@
 #include <fstream>
 #include <iomanip>
 
-bool Log::display = true;
+bool Log::display = false;
 std::shared_ptr<std::ostream> NULLOSTREAM;
 
 void init_logs()

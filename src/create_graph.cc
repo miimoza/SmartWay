@@ -175,12 +175,12 @@ std::shared_ptr<Graph> create_graph()
 
     update_adj_lists(g, "metros");
     update_adj_lists(g, "rers");
-    update_adj_lists(g, "tramways");
-    update_adj_lists(g, "bus");
+    // update_adj_lists(g, "tramways");
+    // update_adj_lists(g, "bus");
 
     update_id(g->station_list);
-    
-    //init_dijkstra(g->station_list);
+
+    // init_dijkstra(g->station_list);
 
     correct_failure(g->station_list);
 
