@@ -115,19 +115,19 @@ static std::shared_ptr<Station> get_min_station(std::shared_ptr<Graph> G)
     size_t i = 0;
     while (i < G->station_list.size() && G->station_list[i]->is_visited())
     {
-        l << G->station_list[i]->get_name() << "is visited\n";
+        // l << G->station_list[i]->get_name() << "is visited\n";
         i++;
     }
     auto min = G->station_list[i];
     l << "test\n";
     for (; i < G->station_list.size(); i++)
     {
-        G->station_list[i]->dump(l);
+        // G->station_list[i]->dump(l);
         if (!G->station_list[i]->is_visited()
             && G->station_list[i]->get_path_value() < min->get_path_value())
             min = G->station_list[i];
     }
-    l << "test2\n";
+    l << "min station:" << min->get_name() << "\n";
 
     return min;
 }
@@ -162,8 +162,8 @@ void smartway(std::shared_ptr<Graph> G)
     Log l2("SmartWay", true);
     l << "Lets go find a itinerary\n";
 
-    std::string src_station = "reuilly+diderot";
-    std::string dst_station = "luxembourg";
+    std::string src_station = "nation";
+    std::string dst_station = "madeleine";
 
     auto src = get_station(G->station_list, src_station);
     auto dst = get_station(G->station_list, dst_station);

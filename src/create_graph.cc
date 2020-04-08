@@ -155,8 +155,8 @@ static station_vect init_vector(std::shared_ptr<Graph> g)
 
     station_list = init_stations(g, "metros");
     station_list = init_stations(g, "rers");
-    station_list = init_stations(g, "tramways");
-    station_list = init_stations(g, "bus");
+    // station_list = init_stations(g, "tramways");
+    // station_list = init_stations(g, "bus");
 
     return station_list;
 }

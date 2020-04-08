@@ -68,7 +68,7 @@ void build_dot_file(std::shared_ptr<Graph> G, const std::string& output_path)
 
     std::ofstream os;
     os.open(output_path);
-    os << "digraph AST {\nranksep=0.25;\nnodesep=0.5;\n";
+    os << "digraph AST {\nranksep=0.1;\nnodesep=0.5;\n";
     build_dot_file_rec(G, os);
     os << "}";
 }
